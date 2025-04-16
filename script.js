@@ -13,3 +13,27 @@ navMenu.querySelectorAll("a").forEach((link) => {
 		mainNav.classList.remove("mobile-active");
 	});
 });
+
+let templates = [];
+let template;
+
+function getData() {
+	fetch("template.json")
+		.then((res) => res.json())
+		.then((result) => {
+			if (Array.isArray(result) && result.length > 0) {
+				templates = result;
+				template = templates[0].templatePath;
+
+				getSinglePage();
+			}
+		});
+}
+
+getData();
+
+async function getSinglePage() {
+	console.log(template);
+	const iframe = document.getElementById("testFrame");
+	iframe.src = template;
+}

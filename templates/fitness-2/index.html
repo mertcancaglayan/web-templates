@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+    <link rel="stylesheet" href="styles.css">        
+		<title>Gym Website Header</title>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">GYM POWER</a>
+
+			<nav>
+				<ul class="nav-menu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#classes">Classes</a></li>
+					<li><a href="#trainers">Trainers</a></li>
+					<li><a href="#membership">Membership</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<a href="#join" class="cta-button">Join Now</a>
+
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</header>
+
+		<main class="content-grid">
+			<section class="hero full-width">
+				<div class="hero-content">
+					<h1 class="hero-title">Transform Your Body & Mind</h1>
+					<p class="hero-subtitle">
+						Join our community and achieve your fitness goals with expert guidance and state-of-the-art
+						facilities
+					</p>
+					<a href="#" class="cta-button">Start Your Journey</a>
+
+					<div class="stats-grid">
+						<div class="stat-card">
+							<div class="stat-number">50+</div>
+							<p>Daily Workouts</p>
+						</div>
+						<div class="stat-card">
+							<div class="stat-number">98%</div>
+							<p>Member Satisfaction</p>
+						</div>
+						<div class="stat-card">
+							<div class="stat-number">20+</div>
+							<p>Expert Trainers</p>
+						</div>
+					</div>
+
+					<div class="programs-grid">
+						<div class="program-card">
+							<div class="program-icon">💪</div>
+							<h3>Strength Training</h3>
+							<p>Build muscle and increase power</p>
+						</div>
+						<div class="program-card">
+							<div class="program-icon">🏃</div>
+							<h3>Cardio Programs</h3>
+							<p>Improve endurance and stamina</p>
+						</div>
+						<div class="program-card">
+							<div class="program-icon">🧘</div>
+							<h3>Yoga & Mobility</h3>
+							<p>Enhance flexibility and balance</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="about-section breakout">
+				<div class="about-container">
+					<div class="about-content">
+						<h2>Why Choose Us</h2>
+						<p class="subheading">Transform your body with our proven methods</p>
+
+						<div class="features-grid">
+							<div class="feature-item">
+								<div class="feature-icon">🏋️♂️</div>
+								<h3>Expert Trainers</h3>
+								<p>Certified professionals with 10+ years experience</p>
+							</div>
+
+							<div class="feature-item">
+								<div class="feature-icon">⏰</div>
+								<h3>24/7 Access</h3>
+								<p>Workout anytime with our flexible schedule</p>
+							</div>
+
+							<div class="feature-item">
+								<div class="feature-icon">💪</div>
+								<h3>Modern Equipment</h3>
+								<p>$1M+ investment in cutting-edge machines</p>
+							</div>
+
+							<div class="feature-item">
+								<div class="feature-icon">🥗</div>
+								<h3>Nutrition Plans</h3>
+								<p>Free customized diet plans with membership</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="about-image">
+						<img
+							loading="lazy"
+							src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+							alt="Gym Facilities"
+						/>
+					</div>
+				</div>
+
+				<div class="stats-bar">
+					<div class="stat-item">
+						<div class="stat-number">5000+</div>
+						<div class="stat-label">Happy Members</div>
+					</div>
+					<div class="stat-item">
+						<div class="stat-number">15+</div>
+						<div class="stat-label">Years Experience</div>
+					</div>
+					<div class="stat-item">
+						<div class="stat-number">100+</div>
+						<div class="stat-label">Weekly Classes</div>
+					</div>
+				</div>
+			</section>
+			<section id="classes" class="classes-section breakout">
+				<div class="classes-container">
+					<h2>Popular Classes</h2>
+
+					<div class="filter-tabs">
+						<button class="filter-btn active" data-filter="all">All</button>
+						<button class="filter-btn" data-filter="strength">Strength</button>
+						<button class="filter-btn" data-filter="cardio">Cardio</button>
+						<button class="filter-btn" data-filter="yoga">Yoga</button>
+					</div>
+
+					<div class="classes-grid">
+						<!-- Class Card 1 -->
+						<div class="class-card" data-category="strength">
+							<div class="class-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Strength Training"
+								/>
+							</div>
+							<div class="class-info">
+								<h3>Power Lifting</h3>
+								<div class="class-meta">
+									<span class="duration">⏱ 45 mins</span>
+									<span class="difficulty">💪 Advanced</span>
+								</div>
+								<button class="book-btn">Book Now</button>
+							</div>
+						</div>
+
+						<!-- Class Card 2 -->
+						<div class="class-card" data-category="cardio">
+							<div class="class-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Cardio Class"
+								/>
+							</div>
+							<div class="class-info">
+								<h3>HIIT Blast</h3>
+								<div class="class-meta">
+									<span class="duration">⏱ 30 mins</span>
+									<span class="difficulty">🏃 Intermediate</span>
+								</div>
+								<button class="book-btn">Book Now</button>
+							</div>
+						</div>
+
+						<!-- Class Card 3 -->
+						<div class="class-card" data-category="yoga">
+							<div class="class-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1340&q=80"
+									alt="Yoga Class"
+								/>
+							</div>
+							<div class="class-info">
+								<h3>Morning Yoga</h3>
+								<div class="class-meta">
+									<span class="duration">⏱ 60 mins</span>
+									<span class="difficulty">🧘 Beginner</span>
+								</div>
+								<button class="book-btn">Book Now</button>
+							</div>
+						</div>
+
+						<!-- Add more class cards following the same structure -->
+					</div>
+				</div>
+			</section>
+			<section id="trainers" class="trainers-section breakout">
+				<div class="trainers-container">
+					<h2>Meet Our Trainers</h2>
+
+					<div class="trainers-grid">
+						<!-- Trainer 1 -->
+						<div class="trainer-card">
+							<div class="trainer-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Trainer John"
+								/>
+							</div>
+							<div class="trainer-info">
+								<h3>John Smith</h3>
+								<p class="certifications">NASM, ACE Certified</p>
+								<div class="specialties">
+									<span>💪 Bodybuilding</span>
+									<span>🏋️ Strength Training</span>
+								</div>
+								<div class="social-links">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Trainer 2 -->
+						<div class="trainer-card">
+							<div class="trainer-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1356&q=80"
+									alt="Trainer Sarah"
+								/>
+							</div>
+							<div class="trainer-info">
+								<h3>Sarah Johnson</h3>
+								<p class="certifications">ISSA, CrossFit L2</p>
+								<div class="specialties">
+									<span>🔥 HIIT</span>
+									<span>🏃♀️ Endurance</span>
+								</div>
+								<div class="social-links">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Trainer 3 -->
+						<div class="trainer-card">
+							<div class="trainer-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Trainer Mike"
+								/>
+							</div>
+							<div class="trainer-info">
+								<h3>Mike Chen</h3>
+								<p class="certifications">RYT 500, Yoga Alliance</p>
+								<div class="specialties">
+									<span>🧘 Yoga</span>
+									<span>🧠 Mindfulness</span>
+								</div>
+								<div class="social-links">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-tiktok"></i></a>
+									<a href="#"><i class="fab fa-spotify"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="membership" class="pricing-section breakout">
+				<div class="pricing-container">
+					<h2>Membership Plans</h2>
+
+					<div class="toggle-container">
+						<span>Monthly</span>
+						<label class="switch">
+							<input type="checkbox" id="billingToggle" />
+							<span class="slider"></span>
+						</label>
+						<span>Annual (20% off)</span>
+					</div>
+
+					<div class="pricing-grid">
+						<!-- Basic Plan -->
+						<div class="pricing-card">
+							<h3>Basic</h3>
+							<div class="price" data-monthly="29" data-annual="278">$29<span>/mo</span></div>
+							<ul class="features">
+								<li>✔️ Gym Access</li>
+								<li>✔️ Basic Equipment</li>
+								<li>❌ Group Classes</li>
+								<li>❌ Personal Trainer</li>
+								<li>❌ Spa Access</li>
+							</ul>
+							<button class="cta-button">Choose Plan</button>
+						</div>
+
+						<!-- Pro Plan (Featured) -->
+						<div class="pricing-card featured">
+							<h3>Pro</h3>
+							<div class="price" data-monthly="59" data-annual="566">$59<span>/mo</span></div>
+							<ul class="features">
+								<li>✔️ Gym Access</li>
+								<li>✔️ Premium Equipment</li>
+								<li>✔️ Group Classes</li>
+								<li>❌ Personal Trainer</li>
+								<li>❌ Spa Access</li>
+							</ul>
+							<button class="cta-button">Choose Plan</button>
+						</div>
+
+						<!-- Premium Plan -->
+						<div class="pricing-card">
+							<h3>Premium</h3>
+							<div class="price" data-monthly="99" data-annual="950">$99<span>/mo</span></div>
+							<ul class="features">
+								<li>✔️ 24/7 Access</li>
+								<li>✔️ All Equipment</li>
+								<li>✔️ Unlimited Classes</li>
+								<li>✔️ Personal Trainer</li>
+								<li>✔️ Spa Access</li>
+							</ul>
+							<button class="cta-button">Choose Plan</button>
+						</div>
+					</div>
+
+					<div class="comparison-table">
+						<h3>Feature Comparison</h3>
+						<table>
+							<thead>
+								<tr>
+									<th>Feature</th>
+									<th>Basic</th>
+									<th>Pro</th>
+									<th>Premium</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Gym Access</td>
+									<td>✔️</td>
+									<td>✔️</td>
+									<td>✔️</td>
+								</tr>
+								<tr>
+									<td>Group Classes</td>
+									<td>❌</td>
+									<td>✔️</td>
+									<td>✔️</td>
+								</tr>
+								<tr>
+									<td>Personal Trainer</td>
+									<td>❌</td>
+									<td>❌</td>
+									<td>✔️</td>
+								</tr>
+								<tr>
+									<td>Spa Access</td>
+									<td>❌</td>
+									<td>❌</td>
+									<td>✔️</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+			<section id="testimonials" class="testimonials-section">
+				<div class="testimonials-container">
+					<h2>Success Stories</h2>
+
+					<div class="testimonials-carousel">
+						<!-- Testimonial 1 -->
+						<div class="testimonial-card active">
+							<div class="client-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Client 1"
+								/>
+							</div>
+							<div class="testimonial-content">
+								<div class="quote-icon">❝</div>
+								<p class="review">
+									I've lost 20kg in 6 months! The trainers are amazing and the community keeps me
+									motivated.
+								</p>
+								<div class="client-info">
+									<h4 class="name">Sarah Johnson</h4>
+									<p class="title">Member Since 2022</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Testimonial 2 -->
+						<div class="testimonial-card">
+							<div class="client-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Client 2"
+								/>
+							</div>
+							<div class="testimonial-content">
+								<div class="quote-icon">❝</div>
+								<p class="review">
+									Best investment in myself! The nutrition plans and group classes changed my life.
+								</p>
+								<div class="client-info">
+									<h4 class="name">Mike Chen</h4>
+									<p class="title">Pro Member</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Testimonial 3 -->
+						<div class="testimonial-card">
+							<div class="client-image">
+								<img
+									loading="lazy"
+									src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+									alt="Client 3"
+								/>
+							</div>
+							<div class="testimonial-content">
+								<div class="quote-icon">❝</div>
+								<p class="review">
+									24/7 access fits my schedule perfectly. Clean facilities and top-notch equipment.
+								</p>
+								<div class="client-info">
+									<h4 class="name">Emma Davis</h4>
+									<p class="title">Premium Member</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Carousel Controls -->
+					<button class="carousel-btn prev-btn">❮</button>
+					<button class="carousel-btn next-btn">❯</button>
+
+					<!-- Dots Navigation -->
+					<div class="carousel-dots">
+						<span class="dot active"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="contact-section breakout">
+				<div class="contact-container">
+					<h2>Get In Touch</h2>
+
+					<div class="contact-grid">
+						<!-- Left Column - Contact Form -->
+						<div class="contact-form">
+							<form>
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" id="name" name="name" required />
+								</div>
+
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input type="email" id="email" name="email" required />
+								</div>
+
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea id="message" name="message" rows="5" required></textarea>
+								</div>
+
+								<button type="submit" class="cta-button">Send Message</button>
+							</form>
+						</div>
+
+						<!-- Right Column - Map & Info -->
+						<div class="contact-info">
+							<div class="map-container">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317715.7119167903!2d-0.381776257935591!3d51.52873519767531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1718877784491!5m2!1sen!2sus"
+									width="100%"
+									height="300"
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy"
+									class="map-iframe"
+								>
+								</iframe>
+							</div>
+
+							<div class="contact-details">
+								<div class="details-left">
+									<div class="contact-item">
+										<i class="fas fa-map-marker-alt"></i>
+										<p>123 Fitness Street<br />London, UK</p>
+									</div>
+
+									<div class="contact-item">
+										<i class="fas fa-phone"></i>
+										<p>+44 1234 567890</p>
+									</div>
+
+									<div class="contact-item">
+										<i class="fas fa-envelope"></i>
+										<p>info@gympower.com</p>
+									</div>
+								</div>
+								<div class="social-links">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer-section">
+			<div class="footer-container">
+				<div class="footer-grid">
+					<!-- Column 1: Logo & Tagline -->
+					<div class="footer-col">
+						<a href="#" class="logo">GYM POWER</a>
+						<p class="tagline">Transform your body, empower your life.</p>
+					</div>
+
+					<!-- Column 2: Quick Links -->
+					<div class="footer-col">
+						<h4>Quick Links</h4>
+						<ul class="footer-links">
+							<li><a href="#privacy">Privacy Policy</a></li>
+							<li><a href="#faq">FAQ</a></li>
+							<li><a href="#terms">Terms of Service</a></li>
+							<li><a href="#careers">Careers</a></li>
+						</ul>
+					</div>
+
+					<!-- Column 3: Opening Hours -->
+					<div class="footer-col">
+						<h4>Opening Hours</h4>
+						<ul class="opening-hours">
+							<li><span>Mon-Fri:</span> 5:00 AM - 11:00 PM</li>
+							<li><span>Saturday:</span> 7:00 AM - 10:00 PM</li>
+							<li><span>Sunday:</span> 8:00 AM - 9:00 PM</li>
+						</ul>
+					</div>
+
+					<!-- Column 4: Newsletter -->
+					<div class="footer-col">
+						<h4>Stay Updated</h4>
+						<form class="newsletter-form">
+							<input type="email" placeholder="Enter your email" required />
+							<button type="submit" class="cta-button">Subscribe</button>
+						</form>
+					</div>
+				</div>
+
+				<!-- Copyright Notice -->
+				<div class="copyright">
+					<p>&copy; 2024 Gym Power. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+		<script src="script.js">
+
+		</script>
+	</body>
+</html>
