@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Gym</title>
+
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="nav-container">
+				<div class="nav-brand">
+					<div class="logo"><i class="fa-solid fa-dumbbell"></i></div>
+				</div>
+				<div class="nav-links">
+					<a href="#">Home</a>
+					<a href="#about-section">About</a>
+					<a href="#programs-section">Programs</a>
+					<a href="#features-section">Services</a>
+					<a href="#pricing-section">Memberships</a>
+					<div class="auth-buttons">
+						<a href="#" class="btn btn-outline">Login</a>
+						<a href="#" class="btn btn-solid">Sign Up</a>
+					</div>
+				</div>
+				<button class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+			</div>
+		</nav>
+		<main>
+			<section class="banner">
+				<div class="banner-text">
+					<h1>Transform Your Body & Mind</h1>
+					<p>
+						Join our premier fitness community with state-of-the-art equipment, expert trainers, and
+						personalized programs to help you achieve your goals faster.
+					</p>
+					<a href="#" class="btn-banner">Start Your Journey Today</a>
+				</div>
+				<div class="banner-image-container">
+					<img
+						loading="lazy"
+						src="https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg"
+						alt="Fitness training at our gym"
+						class="banner-image"
+						loading="lazy"
+					/>
+				</div>
+			</section>
+
+			<section id="about-section" class="about">
+				<div class="about-grid">
+					<div class="about-content">
+						<div class="section-header">
+							<h2>Our Fitness Journey</h2>
+							<p class="highlight-text">Transforming lives since 2015</p>
+						</div>
+
+						<p>
+							At <span class="highlight-text">GymName</span>, we believe fitness is more than just
+							exercise - it's a lifestyle. Founded by certified trainers, our facility has grown into a
+							community of passionate individuals pursuing their best selves.
+						</p>
+
+						<div class="about-features">
+							<div class="feature-item">
+								<i class="fas fa-dumbbell feature-icon"></i>
+								<div>
+									<h4>Expert Training</h4>
+									<p>Certified professionals guiding your progress</p>
+								</div>
+							</div>
+							<div class="feature-item">
+								<i class="fas fa-heartbeat feature-icon"></i>
+								<div>
+									<h4>Holistic Approach</h4>
+									<p>Fitness programs for body & mind</p>
+								</div>
+							</div>
+							<div class="feature-item">
+								<i class="fas fa-users feature-icon"></i>
+								<div>
+									<h4>Supportive Community</h4>
+									<p>Join 5000+ successful members</p>
+								</div>
+							</div>
+							<div class="feature-item">
+								<i class="fas fa-award feature-icon"></i>
+								<div>
+									<h4>Proven Results</h4>
+									<p>1000+ transformations achieved</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="stats-grid">
+							<div class="stat-item">
+								<div class="stat-number">10+</div>
+								<p>Years Experience</p>
+							</div>
+							<div class="stat-item">
+								<div class="stat-number">5000+</div>
+								<p>Active Members</p>
+							</div>
+							<div class="stat-item">
+								<div class="stat-number">98%</div>
+								<p>Member Satisfaction</p>
+							</div>
+						</div>
+
+						<a href="#" class="btn btn-solid" style="margin-top: var(--spacing-medium)"> Meet Our Team </a>
+					</div>
+
+					<div class="about-image">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
+							alt="Gym interior with equipment"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section id="features-section" class="features">
+				<div class="section-header">
+					<h2>Why Choose Us</h2>
+					<p>Discover what makes our gym unique</p>
+				</div>
+				<div class="features-grid">
+					<div class="feature-card">
+						<i class="fas fa-dumbbell"></i>
+						<h3>Modern Equipment</h3>
+						<p>State-of-the-art machines from leading fitness brands</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-user-tie"></i>
+						<h3>Expert Trainers</h3>
+						<p>Certified professionals with 10+ years experience</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-clock"></i>
+						<h3>24/7 Access</h3>
+						<p>Workout on your schedule with round-the-clock access</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-heartbeat"></i>
+						<h3>Personal Training</h3>
+						<p>Customized programs tailored to your goals</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-trophy"></i>
+						<h3>Proven Results</h3>
+						<p>Join our community of successful members</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-smile"></i>
+						<h3>Friendly Community</h3>
+						<p>Supportive environment for all fitness levels</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="programs-section" class="programs">
+				<div class="section-header">
+					<h2>Our Programs</h2>
+					<p>Transform your body with our specialized classes</p>
+				</div>
+				<div class="programs-grid">
+					<div class="program-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg"
+							alt="Strength Training"
+							class="program-image"
+						/>
+						<div class="program-content">
+							<h3>Strength Training</h3>
+							<p>Build muscle and increase power with our weightlifting programs</p>
+							<a href="#" class="btn-program">Learn More</a>
+						</div>
+					</div>
+
+					<div class="program-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+							alt="HIIT Class"
+							class="program-image"
+						/>
+						<div class="program-content">
+							<h3>HIIT Classes</h3>
+							<p>High-intensity interval training for maximum fat burn</p>
+							<a href="#" class="btn-program">Learn More</a>
+						</div>
+					</div>
+
+					<div class="program-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg"
+							alt="Yoga Session"
+							class="program-image"
+						/>
+						<div class="program-content">
+							<h3>Yoga & Pilates</h3>
+							<p>Improve flexibility and mind-body connection</p>
+							<a href="#" class="btn-program">Learn More</a>
+						</div>
+					</div>
+
+					<div class="program-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+							alt="Crossfit Workout"
+							class="program-image"
+						/>
+						<div class="program-content">
+							<h3>CrossFit</h3>
+							<p>Functional fitness with high-intensity workouts</p>
+							<a href="#" class="btn-program">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="testimonials">
+				<div class="section-header">
+					<h2>Success Stories</h2>
+					<p>Hear from our satisfied members</p>
+				</div>
+				<div class="testimonials-grid">
+					<!-- Testimonial 1 -->
+					<div class="testimonial-card">
+						<div class="testimonial-content">
+							<p>
+								The best decision I've made for my health. The trainers are incredibly knowledgeable and
+								the community keeps me motivated.
+							</p>
+							<div class="member-info">
+								<img
+									loading="lazy"
+									src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+									alt="Member photo"
+									class="member-image"
+								/>
+								<div class="member-details">
+									<h4>Sarah Johnson</h4>
+									<p>Member since 2020</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 2 -->
+					<div class="testimonial-card">
+						<div class="testimonial-content">
+							<p>
+								I've tried multiple gyms before, but none compare to the facilities and expertise
+								available here. Truly transformative!
+							</p>
+							<div class="member-info">
+								<img
+									loading="lazy"
+									src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg"
+									alt="Member photo"
+									class="member-image"
+								/>
+								<div class="member-details">
+									<h4>Michael Chen</h4>
+									<p>Lost 18kg</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 3 -->
+					<div class="testimonial-card">
+						<div class="testimonial-content">
+							<p>
+								The 24/7 access fits perfectly with my schedule. Clean facilities and top-notch
+								equipment make every workout enjoyable.
+							</p>
+							<div class="member-info">
+								<img
+									loading="lazy"
+									src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg"
+									alt="Member photo"
+									class="member-image"
+								/>
+								<div class="member-details">
+									<h4>Emma Wilson</h4>
+									<p>Fitness Coach</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="pricing-section" class="pricing">
+				<div class="section-header">
+					<h2>Membership Plans</h2>
+					<p>Choose the perfect plan for your fitness journey</p>
+				</div>
+				<div class="pricing-grid">
+					<!-- Basic Plan -->
+					<div class="pricing-card">
+						<h3>Starter</h3>
+						<div class="price">$29<span>/month</span></div>
+						<ul class="pricing-features">
+							<li>Gym Access</li>
+							<li>Basic Equipment</li>
+							<li>Free WiFi</li>
+							<li>Locker Access</li>
+						</ul>
+						<a href="#" class="btn btn-solid">Choose Plan</a>
+					</div>
+
+					<!-- Featured Plan -->
+					<div class="pricing-card featured">
+						<div class="ribbon">Popular</div>
+						<h3>Premium</h3>
+						<div class="price">$59<span>/month</span></div>
+						<ul class="pricing-features">
+							<li>All Starter Features</li>
+							<li>Group Classes</li>
+							<li>Sauna Access</li>
+							<li>2 PT Sessions</li>
+							<li>Nutrition Plan</li>
+						</ul>
+						<a href="#" class="btn btn-solid">Choose Plan</a>
+					</div>
+
+					<!-- Pro Plan -->
+					<div class="pricing-card">
+						<h3>Elite</h3>
+						<div class="price">$99<span>/month</span></div>
+						<ul class="pricing-features">
+							<li>All Premium Features</li>
+							<li>24/7 Access</li>
+							<li>Private Locker</li>
+							<li>Unlimited Classes</li>
+							<li>Weekly PT Sessions</li>
+						</ul>
+						<a href="#" class="btn btn-solid">Choose Plan</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="cta">
+				<div class="cta-content">
+					<h2>Start Your Fitness Journey Today</h2>
+					<p>Join now and get 7 days free trial to experience our world-class facilities</p>
+					<div class="cta-buttons">
+						<a href="#" class="btn btn-solid">Get Started Now</a>
+						<a href="#" class="btn btn-outline">Book a Tour</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="schedule">
+				<div class="section-header">
+					<h2>Weekly Schedule</h2>
+					<p>Find your perfect workout time</p>
+				</div>
+				<div class="schedule-grid">
+					<!-- Monday -->
+					<div class="day-card">
+						<div class="day-header">
+							<h3>Monday</h3>
+						</div>
+						<div class="time-slot">
+							<div class="class-info">
+								<div class="class-name">HIIT Burn</div>
+								<div class="class-trainer">With Sarah</div>
+							</div>
+							<div class="class-time">6:00 AM</div>
+						</div>
+						<div class="time-slot">
+							<div class="class-info">
+								<div class="class-name">Powerlifting</div>
+								<div class="class-trainer">With Mike</div>
+							</div>
+							<div class="class-time">12:00 PM</div>
+						</div>
+						<div class="time-slot">
+							<div class="class-info">
+								<div class="class-name">Yoga Flow</div>
+								<div class="class-trainer">With Emma</div>
+							</div>
+							<div class="class-time">6:30 PM</div>
+						</div>
+					</div>
+
+					<!-- Tuesday -->
+					<div class="day-card">
+						<div class="day-header">
+							<h3>Tuesday</h3>
+						</div>
+						<div class="time-slot">
+							<div class="class-info">
+								<div class="class-name">Spin Class</div>
+								<div class="class-trainer">With Alex</div>
+							</div>
+							<div class="class-time">7:00 AM</div>
+						</div>
+						<div class="time-slot">
+							<div class="class-info">
+								<div class="class-name">Boxing</div>
+								<div class="class-trainer">With Jordan</div>
+							</div>
+							<div class="class-time">5:30 PM</div>
+						</div>
+						<div class="time-slot">
+							<div class="class-info">
+								<div class="class-name">Core Strength</div>
+								<div class="class-trainer">With Lisa</div>
+							</div>
+							<div class="class-time">7:00 PM</div>
+						</div>
+					</div>
+
+					<!-- Add more days following the same pattern -->
+				</div>
+			</section>
+
+			<section class="trainers">
+				<div class="section-header">
+					<h2>Meet Our Trainers</h2>
+					<p>Professional guidance from certified experts</p>
+				</div>
+				<div class="trainers-grid">
+					<!-- Trainer 1 -->
+					<div class="trainer-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&w=600"
+							alt="Sarah Johnson training"
+							class="trainer-image"
+						/>
+						<div class="trainer-info">
+							<h3 class="trainer-name">Sarah Johnson</h3>
+							<p class="trainer-specialty">Strength & Conditioning</p>
+							<div class="trainer-certifications">
+								<span class="certification-badge">NASM</span>
+								<span class="certification-badge">CrossFit L2</span>
+								<span class="certification-badge">Precision Nutrition</span>
+							</div>
+							<div class="trainer-social">
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-linkedin"></i></a>
+								<a href="#"><i class="fas fa-envelope"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Trainer 2 -->
+					<div class="trainer-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+							alt="Mike Chen coaching"
+							class="trainer-image"
+						/>
+						<div class="trainer-info">
+							<h3 class="trainer-name">Mike Chen</h3>
+							<p class="trainer-specialty">Olympic Weightlifting</p>
+							<div class="trainer-certifications">
+								<span class="certification-badge">NSCA</span>
+								<span class="certification-badge">USAW L1</span>
+								<span class="certification-badge">FMS</span>
+							</div>
+							<div class="trainer-social">
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+								<a href="#"><i class="fas fa-envelope"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Trainer 3 -->
+					<div class="trainer-card">
+						<img
+							loading="lazy"
+							src="https://images.pexels.com/photos/936075/pexels-photo-936075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+							alt="Emma Wilson yoga"
+							class="trainer-image"
+						/>
+						<div class="trainer-info">
+							<h3 class="trainer-name">Emma Wilson</h3>
+							<p class="trainer-specialty">Mind-Body Specialist</p>
+							<div class="trainer-certifications">
+								<span class="certification-badge">RYT 500</span>
+								<span class="certification-badge">Pilates Cert.</span>
+								<span class="certification-badge">ACE</span>
+							</div>
+							<div class="trainer-social">
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-tiktok"></i></a>
+								<a href="#"><i class="fas fa-envelope"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer-content">
+				<!-- About Section -->
+				<div class="footer-section">
+					<div class="logo">
+						<i class="fa-solid fa-dumbbell"></i>
+					</div>
+					<p>Transform your life through fitness. Professional training since 2015.</p>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+
+				<!-- Quick Links -->
+				<div class="footer-section">
+					<h4>Quick Links</h4>
+					<ul class="footer-links">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Membership</a></li>
+						<li><a href="#">Class Schedule</a></li>
+						<li><a href="#">Personal Training</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</div>
+
+				<!-- Contact Info -->
+				<div class="footer-section">
+					<h4>Contact Us</h4>
+					<ul class="contact-info">
+						<li>
+							<i class="fas fa-map-marker-alt"></i>
+							<span>123 Fitness Street, Health City</span>
+						</li>
+						<li>
+							<i class="fas fa-phone"></i>
+							<span>(555) 123-4567</span>
+						</li>
+						<li>
+							<i class="fas fa-envelope"></i>
+							<span>info@gymexample.com</span>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Newsletter -->
+				<div class="footer-section">
+					<h4>Newsletter</h4>
+					<p>Subscribe for fitness tips and special offers</p>
+					<form class="newsletter-form">
+						<input type="email" class="newsletter-input" placeholder="Enter your email" />
+						<button type="submit" class="btn btn-solid">Subscribe</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<p>
+					&copy; 2023 Gym Name. All rights reserved. | <a href="#">Privacy Policy</a> |
+					<a href="#">Terms of Service</a>
+				</p>
+			</div>
+		</footer>
+		<script src="script.js">
+		
+		</script>
+	</body>
+</html>

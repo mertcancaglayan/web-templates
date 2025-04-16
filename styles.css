@@ -6,6 +6,12 @@
 	box-sizing: border-box;
 }
 
+#testFrame {
+	width: 100%;
+	background-color: #555;
+	height: 100dvh;
+}
+
 a {
 	text-decoration: none;
 	color: var(--text-color);
@@ -59,7 +65,6 @@ main.content-grid {
 		[content-start] min(100% - (var(--padding-inline) * 2), var(--content-max-width))
 		[content-end]
 		minmax(var(--padding-inline), 1fr) [full-width-end];
-	gap: var(--item-gap);
 }
 
 .content-grid > :not(.full-width),

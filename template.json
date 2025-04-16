@@ -1,0 +1,26 @@
+[
+	{
+		"id": "001-fitness",
+		"name": "Gym Fitness Website Template",
+		"description": "A sleek and responsive portfolio template for developers and designers.",
+		"tags": ["fitness", "responsive", "modern", "single page"],
+		"author": "Mert Can Çağlayan",
+		"created": "2025-04-15",
+		"version": "1.0",
+		"previewImage": "preview.png",
+		"templatePath": "templates/fitness-1/index.html",
+		"technology": ["HTML", "CSS", "JS"]
+	},
+	{
+		"id": "002-fitness",
+		"name": "Gym Fitness Website Template 2",
+		"description": "A sleek and responsive portfolio template for developers and designers. Glassmorphism Style",
+		"tags": ["fitness", "responsive", "modern", "single page", "glassmorphisim"],
+		"author": "Mert Can Çağlayan",
+		"created": "2025-04-16",
+		"version": "1.0",
+		"previewImage": "preview.png",
+		"templatePath": "templates/fitness-2/index.html",
+		"technology": ["HTML", "CSS", "JS"]
+	}
+]
