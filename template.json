@@ -7,9 +7,9 @@
 		"author": "Mert Can Çağlayan",
 		"created": "2025-04-15",
 		"version": "1.0",
-		"previewImage": "preview.png",
+		"previewImage": "templates/fitness-1/preview.png",
 		"templatePath": "templates/fitness-1/index.html",
-		"technology": ["HTML", "CSS", "JS"]
+		"technology": ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		"id": "002-fitness",
@@ -19,8 +19,8 @@
 		"author": "Mert Can Çağlayan",
 		"created": "2025-04-16",
 		"version": "1.0",
-		"previewImage": "preview.png",
+		"previewImage": "templates/fitness-2/preview.png",
 		"templatePath": "templates/fitness-2/index.html",
-		"technology": ["HTML", "CSS", "JS"]
+		"technology": ["HTML", "CSS", "JavaScript"]
 	}
 ]
