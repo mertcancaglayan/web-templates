@@ -104,14 +104,11 @@ function filterCards(params) {
 
 	gallery.innerHTML = "";
 	
-	const heroSection = document.querySelector(".hero-section");
 	const contentGrid = document.querySelector(".content-grid");
 
 	if (query === "") {
-		heroSection.classList.remove("hero-hidden");
 		contentGrid.classList.remove("content-slide-up");
 	} else {
-		heroSection.classList.add("hero-hidden");
 		contentGrid.classList.add("content-slide-up");
 	}
 
