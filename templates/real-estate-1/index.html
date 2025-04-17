@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Real Estate Landing Page</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo-container">
+				<div class="logo">
+					<svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect y="11.75" width="16" height="16" rx="2" fill="#1E1E1E" />
+						<rect x="5" y="15.75" width="6" height="9" fill="white" />
+						<path
+							d="M4.56852 5.18276C6.23159 2.79209 9.76841 2.79209 11.4315 5.18276C13.3595 7.95433 11.3762 11.75 8 11.75C4.62376 11.75 2.64046 7.95433 4.56852 5.18276Z"
+							fill="#1E1E1E"
+						/>
+					</svg>
+				</div>
+				<div class="logo">
+					<svg width="68" height="18" viewBox="0 0 68 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M59.0554 0.456055C60.8314 0.456055 62.3834 0.816055 63.7114 1.53606C65.0554 2.24006 66.0874 3.23205 66.8074 4.51206C67.5274 5.79206 67.8874 7.25606 67.8874 8.90406C67.8874 10.5361 67.5194 11.9921 66.7834 13.2721C66.0634 14.5521 65.0314 15.5601 63.6874 16.2961C62.3594 17.0161 60.8154 17.3761 59.0554 17.3761H52.3594V0.456055H59.0554ZM58.6954 13.2241C60.0714 13.2241 61.1514 12.8481 61.9354 12.0961C62.7194 11.3441 63.1114 10.2801 63.1114 8.90406C63.1114 7.51206 62.7194 6.44005 61.9354 5.68806C61.1514 4.92005 60.0714 4.53606 58.6954 4.53606H57.0634V13.2241H58.6954Z"
+							fill="#1E1E1E"
+						/>
+						<path d="M45.2743 13.7761H50.5303V17.3761H40.5703V0.456055H45.2743V13.7761Z" fill="#1E1E1E" />
+						<path d="M37.8915 0.456055V17.3761H33.1875V0.456055H37.8915Z" fill="#1E1E1E" />
+						<path
+							d="M20.7095 0.456055V10.2721C20.7095 11.1841 20.9175 11.8881 21.3335 12.3841C21.7655 12.8801 22.4135 13.1281 23.2775 13.1281C24.1415 13.1281 24.7895 12.8801 25.2215 12.3841C25.6695 11.8721 25.8935 11.1681 25.8935 10.2721V0.456055H30.5975V10.2721C30.5975 11.8241 30.2695 13.1521 29.6135 14.2561C28.9575 15.3441 28.0615 16.1681 26.9255 16.7281C25.8055 17.2721 24.5575 17.5441 23.1815 17.5441C21.8055 17.5441 20.5735 17.2721 19.4855 16.7281C18.4135 16.1681 17.5655 15.3441 16.9415 14.2561C16.3335 13.1681 16.0295 11.8401 16.0295 10.2721V0.456055H20.7095Z"
+							fill="#1E1E1E"
+						/>
+						<path
+							d="M10.8 8.68806C11.792 8.91206 12.576 9.40805 13.152 10.1761C13.744 10.9281 14.04 11.7921 14.04 12.7681C14.04 14.2081 13.544 15.3361 12.552 16.1521C11.56 16.9681 10.168 17.3761 8.376 17.3761H0V0.456055H8.112C9.84 0.456055 11.192 0.840055 12.168 1.60806C13.16 2.37606 13.656 3.45606 13.656 4.84806C13.656 5.84006 13.392 6.67206 12.864 7.34406C12.352 8.00006 11.664 8.44806 10.8 8.68806ZM4.704 7.17605H7.08C8.264 7.17605 8.856 6.68806 8.856 5.71206C8.856 4.70406 8.264 4.20006 7.08 4.20006H4.704V7.17605ZM7.44 13.5841C8.624 13.5841 9.216 13.0881 9.216 12.0961C9.216 11.5841 9.056 11.1921 8.736 10.9201C8.432 10.6481 7.992 10.5121 7.416 10.5121H4.704V13.5841H7.44Z"
+							fill="#1E1E1E"
+						/>
+					</svg>
+				</div>
+			</div>
+			<nav class="navbar">
+				<ul class="navbar-items">
+					<li class="navbar-item"><a href="">About us</a></li>
+					<li class="navbar-item"><a href="">Projects</a></li>
+					<li class="navbar-item"><a href="">Agents</a></li>
+					<li class="navbar-item"><a href="">Services</a></li>
+					<li class="navbar-item"><a href="">Listings</a></li>
+					<li class="search-logo navbar-item">
+						<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M11.9438 21C17.1906 21 21.4438 16.7467 21.4438 11.5C21.4438 6.25329 17.1906 2 11.9438 2C6.69714 2 2.44385 6.25329 2.44385 11.5C2.44385 16.7467 6.69714 21 11.9438 21Z"
+								stroke="#1F1F1F"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M22.4438 22L20.4438 20"
+								stroke="#1F1F1F"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</li>
+				</ul>
+			</nav>
+			<div class="header-elements">
+				<div><a href="">Other services</a></div>
+				<div><button class="contact-btn">Contact us</button></div>
+			</div>
+			<div class="bars-logo">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+					<!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+					<path
+						d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+					/>
+				</svg>
+			</div>
+			<div class="burger-menu">
+				<nav class="burger-navbar">
+					<div class="close-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+							<!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+							<path
+								d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"
+							/>
+						</svg>
+					</div>
+					<ul class="burger-navbar-items">
+						<li class="burger-navbar-item"><a href="">About us</a></li>
+						<li class="burger-navbar-item"><a href="">Projects</a></li>
+						<li class="burger-navbar-item"><a href="">Agents</a></li>
+						<li class="burger-navbar-item"><a href="">Services</a></li>
+						<li class="burger-navbar-item"><a href="">Listings</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="page-padding">
+			<div class="banner">
+				<div class="banner-context">
+					<div class="banner-subtitle"><h3>Welcome to Realstate</h3></div>
+					<div class="banner-title"><h2>Manage Your Property</h2></div>
+					<div class="banner-text">
+						<p>
+							Your will have everything nearby supermarket, buses , station, the carmen neighborhood, etc
+						</p>
+					</div>
+					<form class="banner-form">
+						<input id="form-input" type="mail" placeholder="Enter your email" />
+						<button>Get a Quote</button>
+					</form>
+				</div>
+				<div class="banner-image">
+					<img src="images/banner-image.png" alt="banner-image" />
+				</div>
+			</div>
+			<section class="steps-container">
+				<div class="steps-subtitle"><h3>Three steps. Three minutes.</h3></div>
+				<div class="steps-title"><h2>Everything should be this easy.</h2></div>
+				<div class="steps">
+					<div class="answer-step step">
+						<div class="step-logo message-icon">
+							<svg
+								width="75"
+								height="75"
+								viewBox="0 0 75 75"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M56.1875 33.7188V46.2188C56.1875 47.0313 56.1563 47.8125 56.0625 48.5625C55.3438 57 50.375 61.1875 41.2188 61.1875H39.9688C39.1875 61.1875 38.4375 61.5625 37.9687 62.1875L34.2188 67.1875C32.5625 69.4063 29.875 69.4063 28.2187 67.1875L24.4687 62.1875C24.0625 61.6562 23.1563 61.1875 22.4688 61.1875H21.2188C11.25 61.1875 6.25 58.7188 6.25 46.2188V33.7188C6.25 24.5625 10.4688 19.5938 18.875 18.875C19.625 18.7813 20.4063 18.75 21.2188 18.75H41.2188C51.1875 18.75 56.1875 23.75 56.1875 33.7188Z"
+									stroke="#58BF52"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M68.6875 21.2188V33.7188C68.6875 42.9063 64.4687 47.8438 56.0625 48.5625C56.1562 47.8125 56.1875 47.0313 56.1875 46.2188V33.7188C56.1875 23.75 51.1875 18.75 41.2187 18.75H21.2187C20.4062 18.75 19.625 18.7813 18.875 18.875C19.5937 10.4688 24.5625 6.25 33.7187 6.25H53.7187C63.6875 6.25 68.6875 11.25 68.6875 21.2188Z"
+									stroke="#58BF52"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M42.1734 41.4062H42.2016"
+									stroke="#58BF52"
+									stroke-width="3.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M31.2359 41.4062H31.2641"
+									stroke="#58BF52"
+									stroke-width="3.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M20.2984 41.4062H20.3266"
+									stroke="#58BF52"
+									stroke-width="3.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</div>
+						<div class="step-title"><h4>Answer questions</h4></div>
+						<div class="step-text">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum
+							</p>
+						</div>
+					</div>
+					<div class="select-step step">
+						<div class="step-logo sms-icon">
+							<svg
+								width="76"
+								height="75"
+								viewBox="0 0 76 75"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M6.58325 26.5625C6.58325 15.625 12.8333 10.9375 22.2083 10.9375H53.4583C62.8333 10.9375 69.0833 15.625 69.0833 26.5625V48.4375C69.0833 59.375 62.8333 64.0625 53.4583 64.0625H22.2083"
+									stroke="#FF791A"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M53.4583 28.125L43.677 35.9375C40.4582 38.5 35.177 38.5 31.9582 35.9375L22.2083 28.125"
+									stroke="#FF791A"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M6.58325 51.5625H25.3333"
+									stroke="#FF791A"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M6.58325 39.0625H15.9583"
+									stroke="#FF791A"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</div>
+						<div class="step-title"><h4>Select a quote</h4></div>
+						<div class="step-text">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum
+							</p>
+						</div>
+					</div>
+					<div class="register-step step">
+						<div class="step-logo pen-icon">
+							<svg
+								width="76"
+								height="75"
+								viewBox="0 0 76 75"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M42.104 11.25L16.4477 38.4062C15.479 39.4375 14.5415 41.4687 14.354 42.875L13.1977 53C12.7915 56.6562 15.4165 59.1562 19.0415 58.5312L29.104 56.8125C30.5102 56.5625 32.479 55.5312 33.4477 54.4687L59.104 27.3125C63.5415 22.625 65.5415 17.2812 58.6352 10.75C51.7602 4.28125 46.5415 6.5625 42.104 11.25Z"
+									stroke="#3741B5"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M37.8228 15.7812C39.1665 24.4063 46.1665 31 54.854 31.875"
+									stroke="#3741B5"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M10.0415 68.75H66.2915"
+									stroke="#3741B5"
+									stroke-width="3.5"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</div>
+						<div class="step-title"><h4>Get registered</h4></div>
+						<div class="step-text">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum in in vestibulum
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="slider-container">
+				<div class="slider-subtitle"><h3>Best Project of the Years</h3></div>
+				<div class="slider-top">
+					<div class="slider-title"><h2>Our recent projects</h2></div>
+					<div class="slider-navigation">
+						<button class="slider-navigation-button" id="prev"><</button>
+						<button class="slider-navigation-button" id="next">></button>
+					</div>
+				</div>
+				<div class="slider snapns-inline">
+						<div class="slide">
+							<div class="slide-image">
+								<img src="images/slide-image (1).png" alt="slide-image" />
+							</div>
+							<div class="slide-title"><h4>Sobha Hearland I Villas</h4></div>
+							<div class="slide-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum</p>
+							</div>
+							<div class="slide-rating">
+								<div class="stars">
+									<svg
+										width="105"
+										height="18"
+										viewBox="0 0 105 18"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M8.28949 14.0413L4.0662 16.3442C3.70048 16.5436 3.26557 16.2346 3.33353 15.8236L4.14475 10.918L0.69181 7.42705C0.404191 7.13627 0.568347 6.64197 0.972777 6.58102L5.7279 5.86437L7.838 1.42986C8.01892 1.04964 8.56006 1.04964 8.74099 1.42986L10.8511 5.86437L15.6062 6.58102C16.0106 6.64197 16.1748 7.13627 15.8872 7.42705L12.4342 10.918L13.2455 15.8236C13.3134 16.2346 12.8785 16.5436 12.5128 16.3442L8.28949 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M30.395 14.0413L26.1717 16.3442C25.806 16.5436 25.371 16.2346 25.439 15.8236L26.2502 10.918L22.7973 7.42705C22.5097 7.13627 22.6738 6.64197 23.0782 6.58102L27.8334 5.86437L29.9435 1.42986C30.1244 1.04964 30.6655 1.04964 30.8465 1.42986L32.9566 5.86437L37.7117 6.58102C38.1161 6.64197 38.2803 7.13627 37.9926 7.42705L34.5397 10.918L35.3509 15.8236C35.4189 16.2346 34.984 16.5436 34.6183 16.3442L30.395 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M52.5007 14.5218L48.2774 16.8246C47.9117 17.024 47.4768 16.715 47.5447 16.3041L48.3559 11.3985L44.903 7.90752C44.6154 7.61674 44.7795 7.12244 45.184 7.06149L49.9391 6.34484L52.0492 1.91033C52.2301 1.53011 52.7712 1.53011 52.9522 1.91033L55.0623 6.34484L59.8174 7.06149C60.2218 7.12244 60.386 7.61674 60.0984 7.90752L56.6454 11.3985L57.4566 16.3041C57.5246 16.715 57.0897 17.024 56.724 16.8246L52.5007 14.5218Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M74.6049 14.0413L70.3816 16.3442C70.0159 16.5436 69.581 16.2346 69.649 15.8236L70.4602 10.918L67.0072 7.42705C66.7196 7.13627 66.8838 6.64197 67.2882 6.58102L72.0433 5.86437L74.1534 1.42986C74.3344 1.04964 74.8755 1.04964 75.0564 1.42986L77.1665 5.86437L81.9216 6.58102C82.3261 6.64197 82.4902 7.13627 82.2026 7.42705L78.7497 10.918L79.5609 15.8236C79.6288 16.2346 79.1939 16.5436 78.8282 16.3442L74.6049 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M96.7104 14.0413L92.4871 16.3442C92.1214 16.5436 91.6865 16.2346 91.7544 15.8236L92.5656 10.918L89.1127 7.42705C88.8251 7.13627 88.9892 6.64197 89.3937 6.58102L94.1488 5.86437L96.2589 1.42986C96.4398 1.04964 96.981 1.04964 97.1619 1.42986L99.272 5.86437L104.027 6.58102C104.432 6.64197 104.596 7.13627 104.308 7.42705L100.855 10.918L101.666 15.8236C101.734 16.2346 101.299 16.5436 100.934 16.3442L96.7104 14.0413Z"
+											stroke="#9B9B9B"
+										/>
+									</svg>
+								</div>
+								<div class="rating-score">4.84</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-image">
+								<img src="images/slide-image (2).png" alt="slide-image" />
+							</div>
+							<div class="slide-title"><h4>Sobha Hearland II Villas</h4></div>
+							<div class="slide-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum</p>
+							</div>
+							<div class="slide-rating">
+								<div class="stars">
+									<svg
+										width="105"
+										height="18"
+										viewBox="0 0 105 18"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M8.28949 14.0413L4.0662 16.3442C3.70048 16.5436 3.26557 16.2346 3.33353 15.8236L4.14475 10.918L0.69181 7.42705C0.404191 7.13627 0.568347 6.64197 0.972777 6.58102L5.7279 5.86437L7.838 1.42986C8.01892 1.04964 8.56006 1.04964 8.74099 1.42986L10.8511 5.86437L15.6062 6.58102C16.0106 6.64197 16.1748 7.13627 15.8872 7.42705L12.4342 10.918L13.2455 15.8236C13.3134 16.2346 12.8785 16.5436 12.5128 16.3442L8.28949 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M30.395 14.0413L26.1717 16.3442C25.806 16.5436 25.371 16.2346 25.439 15.8236L26.2502 10.918L22.7973 7.42705C22.5097 7.13627 22.6738 6.64197 23.0782 6.58102L27.8334 5.86437L29.9435 1.42986C30.1244 1.04964 30.6655 1.04964 30.8465 1.42986L32.9566 5.86437L37.7117 6.58102C38.1161 6.64197 38.2803 7.13627 37.9926 7.42705L34.5397 10.918L35.3509 15.8236C35.4189 16.2346 34.984 16.5436 34.6183 16.3442L30.395 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M52.5007 14.5218L48.2774 16.8246C47.9117 17.024 47.4768 16.715 47.5447 16.3041L48.3559 11.3985L44.903 7.90752C44.6154 7.61674 44.7795 7.12244 45.184 7.06149L49.9391 6.34484L52.0492 1.91033C52.2301 1.53011 52.7712 1.53011 52.9522 1.91033L55.0623 6.34484L59.8174 7.06149C60.2218 7.12244 60.386 7.61674 60.0984 7.90752L56.6454 11.3985L57.4566 16.3041C57.5246 16.715 57.0897 17.024 56.724 16.8246L52.5007 14.5218Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M74.6049 14.0413L70.3816 16.3442C70.0159 16.5436 69.581 16.2346 69.649 15.8236L70.4602 10.918L67.0072 7.42705C66.7196 7.13627 66.8838 6.64197 67.2882 6.58102L72.0433 5.86437L74.1534 1.42986C74.3344 1.04964 74.8755 1.04964 75.0564 1.42986L77.1665 5.86437L81.9216 6.58102C82.3261 6.64197 82.4902 7.13627 82.2026 7.42705L78.7497 10.918L79.5609 15.8236C79.6288 16.2346 79.1939 16.5436 78.8282 16.3442L74.6049 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M96.7104 14.0413L92.4871 16.3442C92.1214 16.5436 91.6865 16.2346 91.7544 15.8236L92.5656 10.918L89.1127 7.42705C88.8251 7.13627 88.9892 6.64197 89.3937 6.58102L94.1488 5.86437L96.2589 1.42986C96.4398 1.04964 96.981 1.04964 97.1619 1.42986L99.272 5.86437L104.027 6.58102C104.432 6.64197 104.596 7.13627 104.308 7.42705L100.855 10.918L101.666 15.8236C101.734 16.2346 101.299 16.5436 100.934 16.3442L96.7104 14.0413Z"
+											stroke="#9B9B9B"
+										/>
+									</svg>
+								</div>
+								<div class="rating-score">4.84</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-image">
+								<img src="images/slide-image (3).png" alt="slide-image" />
+							</div>
+							<div class="slide-title"><h4>Sobha Hearland III Villas</h4></div>
+							<div class="slide-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum</p>
+							</div>
+							<div class="slide-rating">
+								<div class="stars">
+									<svg
+										width="105"
+										height="18"
+										viewBox="0 0 105 18"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M8.28949 14.0413L4.0662 16.3442C3.70048 16.5436 3.26557 16.2346 3.33353 15.8236L4.14475 10.918L0.69181 7.42705C0.404191 7.13627 0.568347 6.64197 0.972777 6.58102L5.7279 5.86437L7.838 1.42986C8.01892 1.04964 8.56006 1.04964 8.74099 1.42986L10.8511 5.86437L15.6062 6.58102C16.0106 6.64197 16.1748 7.13627 15.8872 7.42705L12.4342 10.918L13.2455 15.8236C13.3134 16.2346 12.8785 16.5436 12.5128 16.3442L8.28949 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M30.395 14.0413L26.1717 16.3442C25.806 16.5436 25.371 16.2346 25.439 15.8236L26.2502 10.918L22.7973 7.42705C22.5097 7.13627 22.6738 6.64197 23.0782 6.58102L27.8334 5.86437L29.9435 1.42986C30.1244 1.04964 30.6655 1.04964 30.8465 1.42986L32.9566 5.86437L37.7117 6.58102C38.1161 6.64197 38.2803 7.13627 37.9926 7.42705L34.5397 10.918L35.3509 15.8236C35.4189 16.2346 34.984 16.5436 34.6183 16.3442L30.395 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M52.5007 14.5218L48.2774 16.8246C47.9117 17.024 47.4768 16.715 47.5447 16.3041L48.3559 11.3985L44.903 7.90752C44.6154 7.61674 44.7795 7.12244 45.184 7.06149L49.9391 6.34484L52.0492 1.91033C52.2301 1.53011 52.7712 1.53011 52.9522 1.91033L55.0623 6.34484L59.8174 7.06149C60.2218 7.12244 60.386 7.61674 60.0984 7.90752L56.6454 11.3985L57.4566 16.3041C57.5246 16.715 57.0897 17.024 56.724 16.8246L52.5007 14.5218Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M74.6049 14.0413L70.3816 16.3442C70.0159 16.5436 69.581 16.2346 69.649 15.8236L70.4602 10.918L67.0072 7.42705C66.7196 7.13627 66.8838 6.64197 67.2882 6.58102L72.0433 5.86437L74.1534 1.42986C74.3344 1.04964 74.8755 1.04964 75.0564 1.42986L77.1665 5.86437L81.9216 6.58102C82.3261 6.64197 82.4902 7.13627 82.2026 7.42705L78.7497 10.918L79.5609 15.8236C79.6288 16.2346 79.1939 16.5436 78.8282 16.3442L74.6049 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M96.7104 14.0413L92.4871 16.3442C92.1214 16.5436 91.6865 16.2346 91.7544 15.8236L92.5656 10.918L89.1127 7.42705C88.8251 7.13627 88.9892 6.64197 89.3937 6.58102L94.1488 5.86437L96.2589 1.42986C96.4398 1.04964 96.981 1.04964 97.1619 1.42986L99.272 5.86437L104.027 6.58102C104.432 6.64197 104.596 7.13627 104.308 7.42705L100.855 10.918L101.666 15.8236C101.734 16.2346 101.299 16.5436 100.934 16.3442L96.7104 14.0413Z"
+											stroke="#9B9B9B"
+										/>
+									</svg>
+								</div>
+								<div class="rating-score">4.84</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-image">
+								<img src="images/slide-image (4).jpg" alt="slide-image" />
+							</div>
+							<div class="slide-title"><h4>Sobha Hearland IV Villas</h4></div>
+							<div class="slide-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum</p>
+							</div>
+							<div class="slide-rating">
+								<div class="stars">
+									<svg
+										width="105"
+										height="18"
+										viewBox="0 0 105 18"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M8.28949 14.0413L4.0662 16.3442C3.70048 16.5436 3.26557 16.2346 3.33353 15.8236L4.14475 10.918L0.69181 7.42705C0.404191 7.13627 0.568347 6.64197 0.972777 6.58102L5.7279 5.86437L7.838 1.42986C8.01892 1.04964 8.56006 1.04964 8.74099 1.42986L10.8511 5.86437L15.6062 6.58102C16.0106 6.64197 16.1748 7.13627 15.8872 7.42705L12.4342 10.918L13.2455 15.8236C13.3134 16.2346 12.8785 16.5436 12.5128 16.3442L8.28949 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M30.395 14.0413L26.1717 16.3442C25.806 16.5436 25.371 16.2346 25.439 15.8236L26.2502 10.918L22.7973 7.42705C22.5097 7.13627 22.6738 6.64197 23.0782 6.58102L27.8334 5.86437L29.9435 1.42986C30.1244 1.04964 30.6655 1.04964 30.8465 1.42986L32.9566 5.86437L37.7117 6.58102C38.1161 6.64197 38.2803 7.13627 37.9926 7.42705L34.5397 10.918L35.3509 15.8236C35.4189 16.2346 34.984 16.5436 34.6183 16.3442L30.395 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M52.5007 14.5218L48.2774 16.8246C47.9117 17.024 47.4768 16.715 47.5447 16.3041L48.3559 11.3985L44.903 7.90752C44.6154 7.61674 44.7795 7.12244 45.184 7.06149L49.9391 6.34484L52.0492 1.91033C52.2301 1.53011 52.7712 1.53011 52.9522 1.91033L55.0623 6.34484L59.8174 7.06149C60.2218 7.12244 60.386 7.61674 60.0984 7.90752L56.6454 11.3985L57.4566 16.3041C57.5246 16.715 57.0897 17.024 56.724 16.8246L52.5007 14.5218Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M74.6049 14.0413L70.3816 16.3442C70.0159 16.5436 69.581 16.2346 69.649 15.8236L70.4602 10.918L67.0072 7.42705C66.7196 7.13627 66.8838 6.64197 67.2882 6.58102L72.0433 5.86437L74.1534 1.42986C74.3344 1.04964 74.8755 1.04964 75.0564 1.42986L77.1665 5.86437L81.9216 6.58102C82.3261 6.64197 82.4902 7.13627 82.2026 7.42705L78.7497 10.918L79.5609 15.8236C79.6288 16.2346 79.1939 16.5436 78.8282 16.3442L74.6049 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M96.7104 14.0413L92.4871 16.3442C92.1214 16.5436 91.6865 16.2346 91.7544 15.8236L92.5656 10.918L89.1127 7.42705C88.8251 7.13627 88.9892 6.64197 89.3937 6.58102L94.1488 5.86437L96.2589 1.42986C96.4398 1.04964 96.981 1.04964 97.1619 1.42986L99.272 5.86437L104.027 6.58102C104.432 6.64197 104.596 7.13627 104.308 7.42705L100.855 10.918L101.666 15.8236C101.734 16.2346 101.299 16.5436 100.934 16.3442L96.7104 14.0413Z"
+											stroke="#9B9B9B"
+										/>
+									</svg>
+								</div>
+								<div class="rating-score">4.84</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-image">
+								<img src="images/slide-image (5).jpg" alt="slide-image" />
+							</div>
+							<div class="slide-title"><h4>Sobha Hearland V Villas</h4></div>
+							<div class="slide-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum</p>
+							</div>
+							<div class="slide-rating">
+								<div class="stars">
+									<svg
+										width="105"
+										height="18"
+										viewBox="0 0 105 18"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M8.28949 14.0413L4.0662 16.3442C3.70048 16.5436 3.26557 16.2346 3.33353 15.8236L4.14475 10.918L0.69181 7.42705C0.404191 7.13627 0.568347 6.64197 0.972777 6.58102L5.7279 5.86437L7.838 1.42986C8.01892 1.04964 8.56006 1.04964 8.74099 1.42986L10.8511 5.86437L15.6062 6.58102C16.0106 6.64197 16.1748 7.13627 15.8872 7.42705L12.4342 10.918L13.2455 15.8236C13.3134 16.2346 12.8785 16.5436 12.5128 16.3442L8.28949 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M30.395 14.0413L26.1717 16.3442C25.806 16.5436 25.371 16.2346 25.439 15.8236L26.2502 10.918L22.7973 7.42705C22.5097 7.13627 22.6738 6.64197 23.0782 6.58102L27.8334 5.86437L29.9435 1.42986C30.1244 1.04964 30.6655 1.04964 30.8465 1.42986L32.9566 5.86437L37.7117 6.58102C38.1161 6.64197 38.2803 7.13627 37.9926 7.42705L34.5397 10.918L35.3509 15.8236C35.4189 16.2346 34.984 16.5436 34.6183 16.3442L30.395 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M52.5007 14.5218L48.2774 16.8246C47.9117 17.024 47.4768 16.715 47.5447 16.3041L48.3559 11.3985L44.903 7.90752C44.6154 7.61674 44.7795 7.12244 45.184 7.06149L49.9391 6.34484L52.0492 1.91033C52.2301 1.53011 52.7712 1.53011 52.9522 1.91033L55.0623 6.34484L59.8174 7.06149C60.2218 7.12244 60.386 7.61674 60.0984 7.90752L56.6454 11.3985L57.4566 16.3041C57.5246 16.715 57.0897 17.024 56.724 16.8246L52.5007 14.5218Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M74.6049 14.0413L70.3816 16.3442C70.0159 16.5436 69.581 16.2346 69.649 15.8236L70.4602 10.918L67.0072 7.42705C66.7196 7.13627 66.8838 6.64197 67.2882 6.58102L72.0433 5.86437L74.1534 1.42986C74.3344 1.04964 74.8755 1.04964 75.0564 1.42986L77.1665 5.86437L81.9216 6.58102C82.3261 6.64197 82.4902 7.13627 82.2026 7.42705L78.7497 10.918L79.5609 15.8236C79.6288 16.2346 79.1939 16.5436 78.8282 16.3442L74.6049 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M96.7104 14.0413L92.4871 16.3442C92.1214 16.5436 91.6865 16.2346 91.7544 15.8236L92.5656 10.918L89.1127 7.42705C88.8251 7.13627 88.9892 6.64197 89.3937 6.58102L94.1488 5.86437L96.2589 1.42986C96.4398 1.04964 96.981 1.04964 97.1619 1.42986L99.272 5.86437L104.027 6.58102C104.432 6.64197 104.596 7.13627 104.308 7.42705L100.855 10.918L101.666 15.8236C101.734 16.2346 101.299 16.5436 100.934 16.3442L96.7104 14.0413Z"
+											stroke="#9B9B9B"
+										/>
+									</svg>
+								</div>
+								<div class="rating-score">4.84</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="slide-image">
+								<img src="images/slide-image (6).jpg" alt="slide-image" />
+							</div>
+							<div class="slide-title"><h4>Sobha Hearland VI Villas</h4></div>
+							<div class="slide-text">
+								<p>Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum</p>
+							</div>
+							<div class="slide-rating">
+								<div class="stars">
+									<svg
+										width="105"
+										height="18"
+										viewBox="0 0 105 18"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M8.28949 14.0413L4.0662 16.3442C3.70048 16.5436 3.26557 16.2346 3.33353 15.8236L4.14475 10.918L0.69181 7.42705C0.404191 7.13627 0.568347 6.64197 0.972777 6.58102L5.7279 5.86437L7.838 1.42986C8.01892 1.04964 8.56006 1.04964 8.74099 1.42986L10.8511 5.86437L15.6062 6.58102C16.0106 6.64197 16.1748 7.13627 15.8872 7.42705L12.4342 10.918L13.2455 15.8236C13.3134 16.2346 12.8785 16.5436 12.5128 16.3442L8.28949 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M30.395 14.0413L26.1717 16.3442C25.806 16.5436 25.371 16.2346 25.439 15.8236L26.2502 10.918L22.7973 7.42705C22.5097 7.13627 22.6738 6.64197 23.0782 6.58102L27.8334 5.86437L29.9435 1.42986C30.1244 1.04964 30.6655 1.04964 30.8465 1.42986L32.9566 5.86437L37.7117 6.58102C38.1161 6.64197 38.2803 7.13627 37.9926 7.42705L34.5397 10.918L35.3509 15.8236C35.4189 16.2346 34.984 16.5436 34.6183 16.3442L30.395 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M52.5007 14.5218L48.2774 16.8246C47.9117 17.024 47.4768 16.715 47.5447 16.3041L48.3559 11.3985L44.903 7.90752C44.6154 7.61674 44.7795 7.12244 45.184 7.06149L49.9391 6.34484L52.0492 1.91033C52.2301 1.53011 52.7712 1.53011 52.9522 1.91033L55.0623 6.34484L59.8174 7.06149C60.2218 7.12244 60.386 7.61674 60.0984 7.90752L56.6454 11.3985L57.4566 16.3041C57.5246 16.715 57.0897 17.024 56.724 16.8246L52.5007 14.5218Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M74.6049 14.0413L70.3816 16.3442C70.0159 16.5436 69.581 16.2346 69.649 15.8236L70.4602 10.918L67.0072 7.42705C66.7196 7.13627 66.8838 6.64197 67.2882 6.58102L72.0433 5.86437L74.1534 1.42986C74.3344 1.04964 74.8755 1.04964 75.0564 1.42986L77.1665 5.86437L81.9216 6.58102C82.3261 6.64197 82.4902 7.13627 82.2026 7.42705L78.7497 10.918L79.5609 15.8236C79.6288 16.2346 79.1939 16.5436 78.8282 16.3442L74.6049 14.0413Z"
+											fill="#F59914"
+										/>
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M96.7104 14.0413L92.4871 16.3442C92.1214 16.5436 91.6865 16.2346 91.7544 15.8236L92.5656 10.918L89.1127 7.42705C88.8251 7.13627 88.9892 6.64197 89.3937 6.58102L94.1488 5.86437L96.2589 1.42986C96.4398 1.04964 96.981 1.04964 97.1619 1.42986L99.272 5.86437L104.027 6.58102C104.432 6.64197 104.596 7.13627 104.308 7.42705L100.855 10.918L101.666 15.8236C101.734 16.2346 101.299 16.5436 100.934 16.3442L96.7104 14.0413Z"
+											stroke="#9B9B9B"
+										/>
+									</svg>
+								</div>
+								<div class="rating-score">4.84</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			<section class="info-section">
+				<h2 class="info-senction-title">We are a global, boutique real estate brokerage</h2>
+				<div class="info-context">
+					<div class="text-area">
+						<div class="info-title">
+							<h3>The transfer of real estate</h3>
+						</div>
+						<div class="info-text">
+							<p>
+								Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque
+								sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit
+								adipiscing quisque tellus scelerisque vehicula ante nunc. Tellus consequat nisl quis
+								nisl justo.
+							</p>
+						</div>
+						<div class="info-buttons">
+							<button id="booked">Book Now!</button>
+							<button id="readmore">Read More</button>
+						</div>
+						<div class="short-info">
+							<div class="info">
+								<h5>12+</h5>
+								<p>Customers</p>
+							</div>
+							<div class="info">
+								<h5>14+</h5>
+								<p>Offices</p>
+							</div>
+							<div class="info">
+								<h5>10+</h5>
+								<p>Students</p>
+							</div>
+						</div>
+					</div>
+					<div class="info-section-image">
+						<img src="images/image.png" alt="" />
+					</div>
+				</div>
+			</section>
+			<div class="banner newsletter-banner">
+				<div class="newsletter-context">
+					<div class="banner-title"><h2>Subscribe Our Newsletter</h2></div>
+					<div class="banner-text">
+						<p>
+							Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin.
+							Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus
+							scelerisque vehicula ante nunc.
+						</p>
+					</div>
+					<form class="banner-form">
+						<input id="form-input" type="mail" placeholder="Enter your email" />
+						<button>Get a Quote</button>
+					</form>
+				</div>
+				<div class="banner-image">
+					<img src="images/newslatter-image.png" alt="banner-image" />
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

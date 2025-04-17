@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Travel Website Navbar</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<a href="#" class="logo">Travel<span>Go</span></a>
+
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#tours">Tours</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#book" class="book-btn">Book Now</a></li>
+			</ul>
+
+			<div class="hamburger">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+		</nav>
+
+		<main>
+			<section id="home" class="hero">
+				<div class="hero__content">
+					<h1 class="hero__title">Discover Your Next Adventure</h1>
+					<p class="hero__subtext">Explore Hidden Gems Across 50+ Destinations Worldwide</p>
+					<a href="#tours" class="book-btn hero__cta">Explore Tours</a>
+				</div>
+			</section>
+
+			<section id="tours" class="section tours">
+				<h2 class="section__title">Featured Tours</h2>
+
+				<div class="tours__grid">
+					<!-- Tour Card 0: Bali Cultural Tour -->
+
+					<div class="tour-card">
+						<div class="tour-card__badge">25% OFF</div>
+						<div class="tour-card__image">
+							<img
+								src="https://images.unsplash.com/photo-1573790387438-4da905039392?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="Tour Image"
+							/>
+						</div>
+
+						<div class="tour-card__content">
+							<div class="tour-card__header">
+								<div class="tour-card__duration"><i class="fas fa-clock"></i> 3 Days</div>
+								<div class="tour-card__group-size"><i class="fas fa-users"></i> 12 People</div>
+							</div>
+
+							<h2 class="tour-card__title">Bali Cultural Tour</h2>
+
+							<div class="tour-card__highlights">
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hotel</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Meals</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Transport</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Guide</div>
+							</div>
+
+							<div class="tour-card__toggle">
+								<div class="tour-card__toggle-btn active">Basic</div>
+								<div class="tour-card__toggle-btn">Premium</div>
+							</div>
+
+							<div class="tour-card__price-section">
+								<div class="tour-card__price">
+									<div class="basic-price">$299 <s>$399</s></div>
+									<div class="premium-price">$499 <s>$699</s></div>
+								</div>
+								<div class="tour-card__rating"><i class="fas fa-star"></i> 4.8</div>
+							</div>
+
+							<button class="book-btn">Book Now <i class="fas fa-arrow-right"></i></button>
+						</div>
+					</div>
+					<!-- Tour Card 1: Paris Adventure Tour -->
+					<div class="tour-card">
+						<div class="tour-card__badge">15% OFF</div>
+						<div class="tour-card__image">
+							<img
+								src="https://images.unsplash.com/photo-1549144511-f099e773c147?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="Paris Adventure Tour"
+							/>
+						</div>
+						<div class="tour-card__content">
+							<div class="tour-card__header">
+								<div class="tour-card__duration"><i class="fas fa-clock"></i> 5 Days</div>
+								<div class="tour-card__group-size"><i class="fas fa-users"></i> 8 People</div>
+							</div>
+							<h2 class="tour-card__title">Paris Adventure Tour</h2>
+							<div class="tour-card__highlights">
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hotel</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Meals</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Sightseeing</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Guide</div>
+							</div>
+							<div class="tour-card__toggle">
+								<div class="tour-card__toggle-btn active">Basic</div>
+								<div class="tour-card__toggle-btn">Premium</div>
+							</div>
+							<div class="tour-card__price-section">
+								<div class="tour-card__price">
+									<div class="basic-price">$499 <s>$589</s></div>
+									<div class="premium-price">$749 <s>$889</s></div>
+								</div>
+								<div class="tour-card__rating"><i class="fas fa-star"></i> 4.7</div>
+							</div>
+							<button class="book-btn">Book Now</button>
+						</div>
+					</div>
+
+					<!-- Tour Card 2: African Safari Tour -->
+					<div class="tour-card">
+						<div class="tour-card__badge">30% OFF</div>
+						<div class="tour-card__image">
+							<img
+								src="https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="African Safari Tour"
+							/>
+						</div>
+						<div class="tour-card__content">
+							<div class="tour-card__header">
+								<div class="tour-card__duration"><i class="fas fa-clock"></i> 7 Days</div>
+								<div class="tour-card__group-size"><i class="fas fa-users"></i> 6 People</div>
+							</div>
+							<h2 class="tour-card__title">African Safari Tour</h2>
+							<div class="tour-card__highlights">
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hotel</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Meals</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Safari</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Guide</div>
+							</div>
+							<div class="tour-card__toggle">
+								<div class="tour-card__toggle-btn active">Basic</div>
+								<div class="tour-card__toggle-btn">Premium</div>
+							</div>
+							<div class="tour-card__price-section">
+								<div class="tour-card__price">
+									<div class="basic-price">$899 <s>$1,299</s></div>
+									<div class="premium-price">$1549 <s>$2089</s></div>
+								</div>
+								<div class="tour-card__rating"><i class="fas fa-star"></i> 4.9</div>
+							</div>
+							<button class="book-btn">Book Now</button>
+						</div>
+					</div>
+
+					<!-- Tour Card 3: Swiss Alps Expedition -->
+					<div class="tour-card">
+						<div class="tour-card__badge">20% OFF</div>
+						<div class="tour-card__image">
+							<img
+							src="https://images.unsplash.com/photo-1503751192943-5537c30ba181?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+							alt="Swiss Alps Expedition" />
+						</div>
+						<div class="tour-card__content">
+							<div class="tour-card__header">
+								<div class="tour-card__duration"><i class="fas fa-clock"></i> 4 Days</div>
+								<div class="tour-card__group-size"><i class="fas fa-users"></i> 10 People</div>
+							</div>
+							<h2 class="tour-card__title">Swiss Alps Expedition</h2>
+							<div class="tour-card__highlights">
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hotel</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Meals</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hiking</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Guide</div>
+							</div>
+							<div class="tour-card__toggle">
+								<div class="tour-card__toggle-btn active">Basic</div>
+								<div class="tour-card__toggle-btn">Premium</div>
+							</div>
+							<div class="tour-card__price-section">
+								<div class="tour-card__price">
+									<div class="basic-price">$599 <s>$749</s></div>
+									<div class="premium-price">$849 <s>$1089</s></div>
+								</div>
+								<div class="tour-card__rating"><i class="fas fa-star"></i> 4.6</div>
+							</div>
+							<button class="book-btn">Book Now</button>
+						</div>
+					</div>
+
+					<!-- Tour Card 4: Tokyo City Tour -->
+					<div class="tour-card">
+						<div class="tour-card__badge">10% OFF</div>
+						<div class="tour-card__image">
+							<img
+								src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="Tokyo City Tour"
+							/>
+						</div>
+						<div class="tour-card__content">
+							<div class="tour-card__header">
+								<div class="tour-card__duration"><i class="fas fa-clock"></i> 3 Days</div>
+								<div class="tour-card__group-size"><i class="fas fa-users"></i> 15 People</div>
+							</div>
+							<h2 class="tour-card__title">Tokyo City Tour</h2>
+							<div class="tour-card__highlights">
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hotel</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Meals</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Transport</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Guide</div>
+							</div>
+							<div class="tour-card__toggle">
+								<div class="tour-card__toggle-btn active">Basic</div>
+								<div class="tour-card__toggle-btn">Premium</div>
+							</div>
+							<div class="tour-card__price-section">
+								<div class="tour-card__price-section">
+									<div class="tour-card__price">
+										<div class="basic-price">$399 <s>$449</s></div>
+										<div class="premium-price">$549 <s>$699</s></div>
+									</div>
+								</div>
+								<div class="tour-card__rating"><i class="fas fa-star"></i> 4.5</div>
+							</div>
+							<button class="book-btn">Book Now</button>
+						</div>
+					</div>
+
+					<!-- Tour Card 5: Maui Beach Escape -->
+					<div class="tour-card">
+						<div class="tour-card__badge">40% OFF</div>
+						<div class="tour-card__image">
+							<img
+								src="https://images.unsplash.com/photo-1562191326-0da0767cfffe?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								alt="Maui Beach Escape"
+							/>
+						</div>
+						<div class="tour-card__content">
+							<div class="tour-card__header">
+								<div class="tour-card__duration"><i class="fas fa-clock"></i> 6 Days</div>
+								<div class="tour-card__group-size"><i class="fas fa-users"></i> 20 People</div>
+							</div>
+							<h2 class="tour-card__title">Maui Beach Escape</h2>
+							<div class="tour-card__highlights">
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Hotel</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Meals</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Water Sports</div>
+								<div class="tour-card__highlight"><i class="fas fa-check"></i> Guide</div>
+							</div>
+							<div class="tour-card__toggle">
+								<div class="tour-card__toggle-btn active">Basic</div>
+								<div class="tour-card__toggle-btn">Premium</div>
+							</div>
+							<div class="tour-card__price-section">
+								<div class="tour-card__price">
+									<div class="basic-price">$699 <s>$1,199</s></div>
+									<div class="premium-price">$999 <s>$2099</s></div>
+								</div>
+								<div class="tour-card__rating"><i class="fas fa-star"></i> 4.9</div>
+							</div>
+							<button class="book-btn">Book Now</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Why Choose Us Section -->
+			<section id="about" class="section about">
+				<div class="section__header">
+					<h2 class="section__title">Why Choose TravelGo</h2>
+					<p class="section__subtitle">Trusted by travelers worldwide since 2002</p>
+				</div>
+
+				<div class="stats-grid">
+					<div class="stat-card">
+						<div class="stat-card__number">50K+</div>
+						<div class="stat-card__label">Happy Travelers</div>
+					</div>
+					<div class="stat-card">
+						<div class="stat-card__number">100+</div>
+						<div class="stat-card__label">Destinations</div>
+					</div>
+					<div class="stat-card">
+						<div class="stat-card__number">98%</div>
+						<div class="stat-card__label">Satisfaction Rate</div>
+					</div>
+					<div class="stat-card">
+						<div class="stat-card__number">24/7</div>
+						<div class="stat-card__label">Support</div>
+					</div>
+				</div>
+
+				<div class="value-props">
+					<!-- Safety Card -->
+					<div class="value-card">
+						<i class="fas fa-shield-alt value-card__icon"></i>
+						<h3 class="value-card__title">Safe & Secure</h3>
+						<p class="value-card__text">
+							Your safety is our priority. All trips include comprehensive insurance and 24/7 emergency
+							support.
+						</p>
+					</div>
+
+					<!-- Expertise Card -->
+					<div class="value-card">
+						<i class="fas fa-globe value-card__icon"></i>
+						<h3 class="value-card__title">Local Expertise</h3>
+						<p class="value-card__text">
+							Our native guides reveal hidden gems and authentic cultural experiences you won't find
+							elsewhere.
+						</p>
+					</div>
+
+					<!-- Quality Card -->
+					<div class="value-card">
+						<i class="fas fa-award value-card__icon"></i>
+						<h3 class="value-card__title">Award-Winning</h3>
+						<p class="value-card__text">
+							Recognized by National Geographic as one of the world's top tour operators for 5 consecutive
+							years.
+						</p>
+					</div>
+
+					<!-- Sustainability Card -->
+					<div class="value-card">
+						<i class="fas fa-leaf value-card__icon"></i>
+						<h3 class="value-card__title">Eco-Friendly</h3>
+						<p class="value-card__text">
+							Committed to sustainable tourism - 5% of profits go to local conservation efforts.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact Section -->
+			<section id="contact" class="section contact">
+				<div class="contact__container">
+					<!-- Left Side: Contact Info -->
+					<div class="contact__info">
+						<h2 class="contact__title">Let's Plan Your Adventure</h2>
+
+						<div class="contact__card">
+							<i class="fas fa-map-marker-alt contact__icon"></i>
+							<div class="contact__details">
+								<h3>Our Office</h3>
+								<p>123 Adventure Lane<br />Travel City, TC 12345</p>
+							</div>
+						</div>
+
+						<div class="contact__card">
+							<i class="fas fa-phone contact__icon"></i>
+							<div class="contact__details">
+								<h3>Call Us</h3>
+								<p>+1 (555) 123-4567<br />Mon-Fri: 8am - 6pm EST</p>
+							</div>
+						</div>
+
+						<div class="contact__card">
+							<i class="fas fa-envelope contact__icon"></i>
+							<div class="contact__details">
+								<h3>Email Us</h3>
+								<p>hello@travelgo.com<br />24/7 Support</p>
+							</div>
+						</div>
+
+						<div class="contact__social">
+							<a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+							<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="social__link"><i class="fab fa-whatsapp"></i></a>
+							<a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+						</div>
+					</div>
+
+					<!-- Right Side: Contact Form -->
+					<form class="contact__form">
+						<h2 class="form__title">Send a Message</h2>
+						<div class="form__group">
+							<input type="text" placeholder="Name" class="form__input" />
+						</div>
+						<div class="form__group">
+							<input type="email" placeholder="Email" class="form__input" />
+						</div>
+						<div class="form__group">
+							<textarea
+								style="resize: none"
+								placeholder="Your Message"
+								rows="5"
+								class="form__input"
+							></textarea>
+						</div>
+						<button type="submit" class="book-btn form__submit">
+							Send Message <i class="fas fa-paper-plane"></i>
+						</button>
+					</form>
+				</div>
+			</section>
+			<!-- Testimonials Section -->
+			<section class="section testimonials">
+				<div class="section__header">
+					<h2 class="section__title">Adventurer Reviews</h2>
+					<p class="section__subtitle">See why travelers love our experiences</p>
+				</div>
+
+				<div class="testimonials__grid">
+					<!-- Card 1 -->
+					<div class="testimonial-card">
+						<div class="testimonial-card__top">
+							<img
+								src="https://i.pravatar.cc/150?img=5"
+								alt="Emma Wilson"
+								class="testimonial-card__photo"
+							/>
+							<div class="testimonial-card__author">
+								<h3 class="testimonial-card__name">Emma Wilson</h3>
+								<div class="testimonial-card__location">
+									<i class="fas fa-map-marker-alt"></i> London, UK
+								</div>
+							</div>
+							<div class="testimonial-card__verified"><i class="fas fa-check-circle"></i> Verified</div>
+						</div>
+
+						<div class="testimonial-card__rating">
+							<div class="stars">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i> <i class="fas fa-star"></i
+								><i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<span class="rating-text">5.0 Experience</span>
+						</div>
+
+						<p class="testimonial-card__text">
+							"The Bali cultural tour exceeded all expectations! Perfect mix of relaxation and adventure."
+						</p>
+
+						<div class="testimonial-card__footer">
+							<div class="trip-details">
+								<span class="trip-date">March 2024</span>
+								<span class="trip-duration">7 Days</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="testimonial-card">
+						<div class="testimonial-card__top">
+							<img
+								src="https://i.pravatar.cc/150?img=7"
+								alt="Michael Chen"
+								class="testimonial-card__photo"
+							/>
+							<div class="testimonial-card__author">
+								<h3 class="testimonial-card__name">Michael Chen</h3>
+								<div class="testimonial-card__location">
+									<i class="fas fa-map-marker-alt"></i> Toronto, CA
+								</div>
+							</div>
+							<div class="testimonial-card__verified"><i class="fas fa-check-circle"></i> Verified</div>
+						</div>
+
+						<div class="testimonial-card__rating">
+							<div class="stars">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i> <i class="fas fa-star"></i
+								><i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<span class="rating-text">5.0 Experience</span>
+						</div>
+
+						<p class="testimonial-card__text">
+							"Flawless organization from start to finish. The safari experience was life-changing!"
+						</p>
+
+						<div class="testimonial-card__footer">
+							<div class="trip-details">
+								<span class="trip-date">January 2024</span>
+								<span class="trip-duration">10 Days</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 3 -->
+					<div class="testimonial-card">
+						<div class="testimonial-card__top">
+							<img
+								src="https://i.pravatar.cc/150?img=9"
+								alt="Sofia Martinez"
+								class="testimonial-card__photo"
+							/>
+							<div class="testimonial-card__author">
+								<h3 class="testimonial-card__name">Sofia Martinez</h3>
+								<div class="testimonial-card__location">
+									<i class="fas fa-map-marker-alt"></i> Madrid, ES
+								</div>
+							</div>
+							<div class="testimonial-card__verified"><i class="fas fa-check-circle"></i> Verified</div>
+						</div>
+
+						<div class="testimonial-card__rating">
+							<div class="stars">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i> <i class="fas fa-star"></i
+								><i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<span class="rating-text">5.0 Experience</span>
+						</div>
+
+						<p class="testimonial-card__text">
+							"Our family had the most amazing time in Japan. Every detail was perfect!"
+						</p>
+
+						<div class="testimonial-card__footer">
+							<div class="trip-details">
+								<span class="trip-date">December 2023</span>
+								<span class="trip-duration">14 Days</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FAQ Section -->
+			<section id="faq" class="section faq">
+				<div class="section__header">
+					<h2 class="section__title">Travel FAQs</h2>
+					<p class="section__subtitle">Answers to common travel questions</p>
+				</div>
+
+				<div class="faq__grid">
+					<!-- FAQ Item 1 -->
+					<div class="faq-card">
+						<div class="faq-card__question">
+							<h3>What's included in the tour package?</h3>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+						<div class="faq-card__answer">
+							<p>
+								Our packages include accommodation, transportation, guided tours, and most meals.
+								Flights and personal expenses are not included unless specified.
+							</p>
+						</div>
+					</div>
+
+					<!-- FAQ Item 2 -->
+					<div class="faq-card">
+						<div class="faq-card__question">
+							<h3>What is your cancellation policy?</h3>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+						<div class="faq-card__answer">
+							<p>
+								You can cancel up to 30 days before departure for a full refund. Cancellations within
+								14-29 days receive 50% refund. No refunds within 14 days of travel.
+							</p>
+						</div>
+					</div>
+
+					<!-- FAQ Item 3 -->
+					<div class="faq-card">
+						<div class="faq-card__question">
+							<h3>Do I need travel insurance?</h3>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+						<div class="faq-card__answer">
+							<p>
+								Yes, comprehensive travel insurance is mandatory for all our tours. We can help you
+								arrange coverage if needed.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer Section -->
+		<footer class="footer">
+			<div class="footer__content">
+				<div class="footer__sections">
+					<!-- Company Info -->
+					<div class="footer__section">
+						<h4 class="footer__title">TravelGo</h4>
+						<p class="footer__text">Creating unforgettable travel experiences since 2002</p>
+						<div class="footer__social">
+							<a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+							<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+						</div>
+					</div>
+
+					<!-- Quick Links -->
+					<div class="footer__section">
+						<h4 class="footer__title">Quick Links</h4>
+						<ul class="footer__links">
+							<li><a href="#about" class="footer__link">About Us</a></li>
+							<li><a href="#contact" class="footer__link">Contact</a></li>
+							<li><a href="#" class="footer__link">Privacy Policy</a></li>
+							<li><a href="#faq" class="footer__link">FAQ</a></li>
+						</ul>
+					</div>
+
+					<!-- Instagram Feed -->
+					<div class="footer__section">
+						<h4 class="footer__title">Travel Moments</h4>
+						<div class="footer__gallery">
+							<img src="https://picsum.photos/id/237/100/100" alt="Travel" class="gallery__image" />
+							<img src="https://picsum.photos/id/230/100/100" alt="Travel" class="gallery__image" />
+							<img src="https://picsum.photos/id/232/100/100" alt="Travel" class="gallery__image" />
+							<img src="https://picsum.photos/id/222/100/100" alt="Travel" class="gallery__image" />
+							<img src="https://picsum.photos/id/223/100/100" alt="Travel" class="gallery__image" />
+							<img src="https://picsum.photos/id/221/100/100" alt="Travel" class="gallery__image" />
+						</div>
+					</div>
+				</div>
+
+				<!-- Payment & Copyright -->
+				<div class="footer__bottom">
+					<div class="footer__payments">
+						<i class="fab fa-cc-visa"></i>
+						<i class="fab fa-cc-mastercard"></i>
+						<i class="fab fa-cc-paypal"></i>
+						<i class="fab fa-cc-apple-pay"></i>
+					</div>
+
+					<div class="footer__legal">
+						<p class="footer__copy">&copy; 2024 TravelGo. All rights reserved</p>
+						<div class="footer__legal-links">
+							<a href="#" class="footer__link">Terms of Service</a>
+							<a href="#" class="footer__link">Privacy Policy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="newsletter-bar">
+			<div class="newsletter-content">
+				<div class="newsletter-text">
+					<h3 class="newsletter-title">Get Exclusive Travel Deals</h3>
+					<p class="newsletter-subtitle">Subscribe to our newsletter for special offers</p>
+				</div>
+
+				<form class="newsletter-form">
+					<input type="email" placeholder="Enter your email" class="newsletter-input" required />
+					<button type="submit" class="book-btn newsletter-submit">
+						Subscribe <i class="fas fa-arrow-right"></i>
+					</button>
+				</form>
+
+				<button class="newsletter-close">
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

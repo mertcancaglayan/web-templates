@@ -39,7 +39,7 @@ function displayCards(cards) {
 		let newCard = `
 			<article class="template-container">
 				<div class="template-img-container">
-					<img src="${card.previewImage}" alt="${card.name} image" />
+					<img loading="lazy" src="${card.previewImage}" alt="${card.name} image" />
 				</div>
 				<div class="template-details">
 					<h5 class="template-title">${card.name}</h5>
@@ -49,27 +49,14 @@ function displayCards(cards) {
 				</div>
 
 				<div class="template-overlay">
-					<button data-preview="${card.templatePath}" class="cta-btn preview-btn">Live Preview</button>
-					<button class="cta-btn">Get the Code</button>
+					<a href="${card.templatePath}" target="_blank" class="cta-btn">Live Preview</a>
+					<a href="${card.downloadPath}" download class="cta-btn"> Download  </a>
 				</div>
 			</article>
 		`;
 
 		gallery.insertAdjacentHTML("beforeend", newCard);
 	});
-}
-
-gallery.addEventListener("click", (e) => {
-	if (e.target.classList.contains("preview-btn")) {
-		setPreviewParams(e.target);
-	}
-});
-
-function setPreviewParams(btn) {
-	const previewUrl = btn.getAttribute("data-preview");
-	if (previewUrl) {
-		window.open(previewUrl, "_blank");
-	}
 }
 
 let templates = [];
