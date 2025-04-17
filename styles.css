@@ -52,6 +52,7 @@ body {
 
 	font-family: var(--font-sans);
 	line-height: 1.6;
+	padding-bottom: 6rem;
 }
 
 main.content-grid {
@@ -237,6 +238,22 @@ nav {
 	overflow: hidden;
 }
 
+.hero-section,
+.content-grid {
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	will-change: transform, opacity;
+}
+
+.hero-hidden {
+	transform: translateY(-100%);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.content-slide-up {
+	transform: translateY(-100%); 
+}
+
 .hero-section::before {
 	content: "";
 	position: absolute;
@@ -415,6 +432,13 @@ img {
 
 .template-overlay .cta-btn {
 	cursor: pointer;
+}
+
+.no-results {
+	text-align: center;
+	color: var(--text-color);
+	font-size: 1.2rem;
+	padding: 2rem;
 }
 
 @media (max-width: 1024px) {
