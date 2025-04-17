@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Health Coach - Transform Your Life</title>
+	</head>
+	<body class="antialiased">
+		<header class="header">
+			<nav class="container navbar">
+				<a href="#" class="logo"> <i class="fas fa-heart-pulse"></i> HealthCoach </a>
+				<div class="nav-links">
+					<a href="#home">Home</a>
+					<a href="#services">Services</a>
+					<a href="#testimonials">Testimonials</a>
+					<a href="#blog">Blog</a>
+					<a href="#contact">Contact</a>
+				</div>
+				<div class="nav-actions">
+					<button id="theme-toggle" type="button" class="theme-toggle-btn hidden lg:block">
+						<i id="theme-toggle-dark-icon" class="fas fa-moon hidden"></i>
+						<i id="theme-toggle-light-icon" class="fas fa-sun hidden"></i>
+						<span class="sr-only">Toggle theme</span>
+					</button>
+					<button id="theme-toggle-mobile" type="button" class="theme-toggle-btn lg:hidden">
+						<i id="theme-toggle-dark-icon-mobile" class="fas fa-moon hidden"></i>
+						<i id="theme-toggle-light-icon-mobile" class="fas fa-sun hidden"></i>
+						<span class="sr-only">Toggle theme</span>
+					</button>
+					<button id="mobile-menu-button" class="mobile-menu-toggle lg:hidden">
+						<i class="fas fa-bars"></i> <span class="sr-only">Open menu</span>
+					</button>
+				</div>
+			</nav>
+			<div id="mobile-menu" class="mobile-menu">
+				<button id="close-mobile-menu" class="mobile-menu-close-btn">
+					<i class="fas fa-times"></i> <span class="sr-only">Close menu</span>
+				</button>
+				<div class="mobile-nav-links">
+					<a href="#home" class="mobile-menu-link">Home</a>
+					<a href="#services" class="mobile-menu-link">Services</a>
+					<a href="#testimonials" class="mobile-menu-link">Testimonials</a>
+					<a href="#blog" class="mobile-menu-link">Blog</a>
+					<a href="#contact" class="mobile-menu-link">Contact</a>
+				</div>
+			</div>
+			<div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
+		</header>
+
+		<main>
+			<section id="home" class="section-bg-secondary">
+				<div class="container grid gap-12 items-center">
+					<div class="text-content text-center fade-in-element">
+						<h1>Transform Your Health, Transform Your Life</h1>
+						<p>Personalized coaching for a healthier you. Let's achieve your wellness goals together.</p>
+						<a href="#contact" class="btn btn-primary"> Book a Free Consultation </a>
+					</div>
+					<div class="image-content flex justify-center fade-in-element">
+						<img
+							src="https://placehold.co/600x400/a5b4fc/1f2937?text=Healthy+Lifestyle"
+							alt="Motivational Health Illustration"
+							loading="lazy"
+							onerror="this.onerror=null; this.src='https://placehold.co/600x400/cccccc/ffffff?text=Image+Not+Found';"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="section-bg-primary">
+				<div class="container text-center fade-in-element">
+					<h2 class="section-title">Meet Your Coach</h2>
+					<p class="intro">
+						Hi, I'm [Coach's Name], a certified health and wellness coach passionate about empowering
+						individuals to take control of their health through sustainable lifestyle changes.
+					</p>
+					<div class="grid gap-8 max-w-5xl mx-auto">
+						<div class="about-card">
+							<i class="fas fa-bullseye"></i>
+							<h3>My Mission</h3>
+							<p>
+								To guide and support you in building healthy habits that last a lifetime, focusing on
+								holistic well-being.
+							</p>
+						</div>
+						<div class="about-card">
+							<i class="fas fa-brain"></i>
+							<h3>My Philosophy</h3>
+							<p>
+								I believe in personalized, evidence-based approaches. No quick fixes, just sustainable
+								progress towards your goals.
+							</p>
+						</div>
+						<div class="about-card">
+							<i class="fas fa-award"></i>
+							<h3>Credentials</h3>
+							<p>Certified Health Coach (CHC), Nutrition Specialist (CNS), [Other Certifications].</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="services" class="section-bg-secondary">
+				<div class="container text-center fade-in-element">
+					<h2 class="section-title">What I Offer</h2>
+					<div class="grid gap-8 max-w-6xl mx-auto">
+						<div class="service-card">
+							<i class="fas fa-utensils"></i>
+							<h3>Nutrition Plans</h3>
+							<p>
+								Customized meal plans and guidance to fuel your body effectively and achieve your
+								dietary goals.
+							</p>
+						</div>
+						<div class="service-card">
+							<i class="fas fa-dumbbell"></i>
+							<h3>Fitness Coaching</h3>
+							<p>
+								Personalized workout routines and support to build strength, endurance, and overall
+								fitness.
+							</p>
+						</div>
+						<div class="service-card">
+							<i class="far fa-smile-beam"></i>
+							<h3>Stress Management</h3>
+							<p>
+								Techniques and strategies to manage stress, improve sleep, and enhance mental
+								well-being.
+							</p>
+						</div>
+						<div class="service-card">
+							<i class="fas fa-check-double"></i>
+							<h3>Habit Formation</h3>
+							<p>Guidance on building and maintaining positive habits for long-term health success.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="testimonials" class="section-bg-primary">
+				<div class="container text-center fade-in-element">
+					<h2 class="section-title">Success Stories</h2>
+					<div class="grid gap-8 max-w-6xl mx-auto">
+						<div class="testimonial-card client-1">
+							<img
+								src="https://placehold.co/100x100/c4b5fd/1f2937?text=Client+1"
+								alt="Client 1"
+								loading="lazy"
+								onerror="this.onerror=null; this.src='https://placehold.co/100x100/cccccc/ffffff?text=Img';"
+							/>
+							<blockquote>
+								"Working with [Coach's Name] changed everything! I lost 20 pounds and feel more
+								energetic than ever."
+							</blockquote>
+							<h4>Sarah J.</h4>
+							<p class="result">Lost 20 lbs, Increased Energy</p>
+						</div>
+						<div class="testimonial-card client-2">
+							<img
+								src="https://placehold.co/100x100/a5f3fc/1f2937?text=Client+2"
+								alt="Client 2"
+								loading="lazy"
+								onerror="this.onerror=null; this.src='https://placehold.co/100x100/cccccc/ffffff?text=Img';"
+							/>
+							<blockquote>
+								"I finally learned how to manage my stress and prioritize my health. The personalized
+								plan was key."
+							</blockquote>
+							<h4>Mark T.</h4>
+							<p class="result">Reduced Stress, Better Habits</p>
+						</div>
+						<div class="testimonial-card client-3">
+							<img
+								src="https://placehold.co/100x100/fecaca/1f2937?text=Client+3"
+								alt="Client 3"
+								loading="lazy"
+								onerror="this.onerror=null; this.src='https://placehold.co/100x100/cccccc/ffffff?text=Img';"
+							/>
+							<blockquote>
+								"The fitness coaching was fantastic. I feel stronger and more confident in my body."
+							</blockquote>
+							<h4>Emily R.</h4>
+							<p class="result">Improved Fitness, Gained Confidence</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="pricing" class="section-bg-secondary">
+				<div class="container text-center fade-in-element">
+					<h2 class="section-title">Tailored Programs</h2>
+					<div class="grid gap-8 max-w-5xl mx-auto items-stretch">
+						<div class="pricing-card">
+							<h3>Starter Kickstart</h3>
+							<p class="price">$99<span>/month</span></p>
+							<ul>
+								<li><i class="fas fa-check"></i> Bi-weekly Check-ins</li>
+								<li><i class="fas fa-check"></i> Basic Nutrition Guide</li>
+								<li><i class="fas fa-check"></i> Email Support</li>
+							</ul>
+							<a href="#contact" class="btn btn-secondary">Get Started</a>
+						</div>
+						<div class="pricing-card popular">
+							<span class="popular-badge">POPULAR</span>
+							<h3>Total Transformation</h3>
+							<p class="price">$199<span>/month</span></p>
+							<ul>
+								<li><i class="fas fa-check"></i> Weekly Check-ins</li>
+								<li><i class="fas fa-check"></i> Personalized Nutrition Plan</li>
+								<li><i class="fas fa-check"></i> Custom Fitness Routine</li>
+								<li><i class="fas fa-check"></i> Priority Email & Chat Support</li>
+							</ul>
+							<a href="#contact" class="btn btn-primary">Choose Plan</a>
+						</div>
+						<div class="pricing-card">
+							<h3>Elite Wellness</h3>
+							<p class="price">$299<span>/month</span></p>
+							<ul>
+								<li><i class="fas fa-check"></i> Weekly Video Calls</li>
+								<li><i class="fas fa-check"></i> Full Nutrition & Fitness Plan</li>
+								<li><i class="fas fa-check"></i> Stress Management Coaching</li>
+								<li><i class="fas fa-check"></i> 24/7 Priority Support</li>
+							</ul>
+							<a href="#contact" class="btn btn-secondary">Go Premium</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="blog" class="section-bg-primary">
+				<div class="container text-center fade-in-element">
+					<h2 class="section-title">Health Tips & Resources</h2>
+					<div class="grid gap-8 max-w-6xl mx-auto grid-container">
+						<div class="blog-card">
+							<img
+								src="https://placehold.co/400x250/86efac/1f2937?text=Healthy+Eating"
+								alt="Blog post image 1"
+								loading="lazy"
+								onerror="this.onerror=null; this.src='https://placehold.co/400x250/cccccc/ffffff?text=Image+Not+Found';"
+							/>
+							<div class="content">
+								<h3>Simple Tips for Healthy Eating</h3>
+								<p>Discover easy ways to improve your diet without feeling deprived.</p>
+								<a href="#">Read More <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+						<div class="blog-card">
+							<img
+								src="https://placehold.co/400x250/93c5fd/1f2937?text=Workout+Motivation"
+								alt="Blog post image 2"
+								loading="lazy"
+								onerror="this.onerror=null; this.src='https://placehold.co/400x250/cccccc/ffffff?text=Image+Not+Found';"
+							/>
+							<div class="content">
+								<h3>Staying Motivated to Exercise</h3>
+								<p>Find practical strategies to keep your fitness routine consistent.</p>
+								<a href="#">Read More <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+						<div class="blog-card">
+							<img
+								src="https://placehold.co/400x250/fdba74/1f2937?text=Mindfulness"
+								alt="Blog post image 3"
+								loading="lazy"
+								onerror="this.onerror=null; this.src='https://placehold.co/400x250/cccccc/ffffff?text=Image+Not+Found';"
+							/>
+							<div class="content">
+								<h3>The Power of Mindfulness</h3>
+								<p>Learn how mindfulness can reduce stress and improve overall well-being.</p>
+								<a href="#">Read More <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="btn btn-tertiary"> View All Resources </a>
+				</div>
+			</section>
+
+			<section id="faq" class="section-bg-secondary">
+				<div class="container max-w-3xl mx-auto fade-in-element">
+					<h2 class="section-title">Frequently Asked Questions</h2>
+					<div class="faq-container">
+						<div class="faq-item">
+							<button class="faq-question">
+								<span>What kind of results can I expect?</span>
+								<i class="fas fa-chevron-down faq-toggle-icon"></i>
+							</button>
+							<div class="faq-answer">
+								Results vary based on individual commitment and goals, but clients typically experience
+								weight loss, increased energy, better stress management, and improved overall
+								well-being. We focus on sustainable changes for long-term success.
+							</div>
+						</div>
+						<div class="faq-item">
+							<button class="faq-question">
+								<span>How often do we communicate?</span>
+								<i class="fas fa-chevron-down faq-toggle-icon"></i>
+							</button>
+							<div class="faq-answer">
+								Communication frequency depends on the program you choose. Options range from bi-weekly
+								check-ins to weekly video calls and ongoing email/chat support. We'll determine the best
+								fit for you during our consultation.
+							</div>
+						</div>
+						<div class="faq-item">
+							<button class="faq-question">
+								<span>Do you offer meal plans?</span>
+								<i class="fas fa-chevron-down faq-toggle-icon"></i>
+							</button>
+							<div class="faq-answer">
+								Yes, personalized nutrition guidance and meal plans are a core part of my coaching,
+								especially in the 'Total Transformation' and 'Elite Wellness' programs. We tailor plans
+								to your dietary needs and preferences.
+							</div>
+						</div>
+						<div class="faq-item">
+							<button class="faq-question">
+								<span>Is health coaching suitable for beginners?</span>
+								<i class="fas fa-chevron-down faq-toggle-icon"></i>
+							</button>
+							<div class="faq-answer">
+								Absolutely! Health coaching is perfect for beginners looking for guidance and
+								accountability, as well as those who have tried before and need a more structured,
+								personalized approach.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact" class="section-bg-primary">
+				<div class="container max-w-3xl mx-auto fade-in-element">
+					<h2 class="section-title">Get in Touch</h2>
+					<form id="contact-form">
+						<div>
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" required placeholder="Your Name" />
+						</div>
+						<div>
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+						</div>
+						<div>
+							<label for="message">Message</label>
+							<textarea
+								id="message"
+								name="message"
+								rows="4"
+								required
+								placeholder="How can I help you?"
+							></textarea>
+						</div>
+						<div class="submit-button-container">
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</div>
+						<div id="form-status"></div>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-column">
+						<h4>HealthCoach</h4>
+						<p>
+							Helping you build a healthier, happier life through sustainable habits and personalized
+							guidance.
+						</p>
+					</div>
+
+					<div class="footer-column">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#pricing">Programs</a></li>
+							<li><a href="#blog">Blog</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-column">
+						<h4>Support</h4>
+						<ul>
+							<li><a href="#faq">FAQ</a></li>
+							<li><a href="#contact">Contact Us</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Service</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-column">
+						<h4>Connect</h4>
+						<div class="contact-info">
+							<p class="contact-item">
+								<i class="fas fa-envelope"></i>
+								<a href="mailto:info@healthcoach.com">info@healthcoach.com</a>
+							</p>
+							<p class="contact-item">
+								<i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 (234) 567-890</a>
+							</p>
+							<p class="contact-item">
+								<i class="fas fa-map-marker-alt"></i> [Your City, State] (Optional)
+							</p>
+						</div>
+						<div class="footer-social-links">
+							<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+							<a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+							<a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>&copy; 2025 HealthCoach. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>

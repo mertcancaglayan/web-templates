@@ -2,25 +2,86 @@
 	{
 		"id": "001-fitness",
 		"name": "Gym Fitness Website Template",
-		"description": "A sleek and responsive portfolio template for developers and designers.",
+		"description": "A sleek and responsive website template for developers and designers.",
 		"tags": ["fitness", "responsive", "modern", "single page"],
-		"author": "Mert Can Çağlayan",
 		"created": "2025-04-15",
 		"version": "1.0",
-		"previewImage": "preview.png",
+		"previewImage": "templates/fitness-1/preview.png",
 		"templatePath": "templates/fitness-1/index.html",
-		"technology": ["HTML", "CSS", "JS"]
+		"downloadPath": "templates/fitness-1/fitness-1.zip",
+		"technology": ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		"id": "002-fitness",
 		"name": "Gym Fitness Website Template 2",
-		"description": "A sleek and responsive portfolio template for developers and designers. Glassmorphism Style",
+		"description": "A sleek and responsive website template for developers and designers. Glassmorphism Style",
 		"tags": ["fitness", "responsive", "modern", "single page", "glassmorphisim"],
-		"author": "Mert Can Çağlayan",
 		"created": "2025-04-16",
 		"version": "1.0",
-		"previewImage": "preview.png",
+		"previewImage": "templates/fitness-2/preview.png",
 		"templatePath": "templates/fitness-2/index.html",
-		"technology": ["HTML", "CSS", "JS"]
+		"downloadPath": "templates/fitness-2/fitness-2.zip",
+		"technology": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"id": "001-health",
+		"name": "Health Website Template",
+		"description": "A sleek and responsive website template for developers and designers.",
+		"tags": ["health", "responsive", "modern", "single page"],
+		"created": "2025-04-16",
+		"version": "1.0",
+		"previewImage": "templates/health-1/preview.png",
+		"templatePath": "templates/health-1/index.html",
+		"downloadPath": "templates/health-1/health-1.zip",
+
+		"technology": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"id": "001-landing",
+		"name": "Landing Page Website Template",
+		"description": "A sleek and responsive landing template for developers and designers.",
+		"tags": ["landing page", "responsive", "modern", "single page"],
+		"created": "2025-04-16",
+		"version": "1.0",
+		"previewImage": "templates/landing-1/preview.png",
+		"templatePath": "templates/landing-1/index.html",
+		"downloadPath": "templates/landing-1/landing-1.zip",
+		"technology": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"id": "001-travel",
+		"name": "Travel Company Website Template",
+		"description": "A sleek and responsive travel website template for developers and designers.",
+		"tags": ["travel page", "responsive", "modern", "single page"],
+		"created": "2025-04-16",
+		"version": "1.0",
+		"previewImage": "templates/travel-1/preview.png",
+		"templatePath": "templates/travel-1/index.html",
+		"downloadPath": "templates/travel-1/travel-1.zip",
+		"technology": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"id": "001-real-estate",
+		"name": "Real Estate Company Website Template",
+		"description": "A sleek and responsive Real Estate Company avel website template for developers and designers.",
+		"tags": ["Real Estate", "responsive", "modern", "single page"],
+		"created": "2025-04-17",
+		"version": "1.0",
+		"previewImage": "templates/real-estate-1/preview.png",
+		"templatePath": "templates/real-estate-1/index.html",
+		"downloadPath": "templates/real-estate-1/real-estate-1.zip",
+		"technology": ["HTML", "CSS", "JavaScript"]
+	},
+	{
+		"id": "001-car-rental",
+		"name": "Car Rental Company Website Template",
+		"description": "A sleek and responsive Real Estate Company avel website template for developers and designers.",
+		"tags": ["Car Rental", "responsive", "modern", "single page"],
+		"created": "2025-04-17",
+		"version": "1.0",
+		"previewImage": "templates/car-rental-1/preview.png",
+		"templatePath": "templates/car-rental-1/index.html",
+		"downloadPath": "templates/car-rental-1/car-rental-1.zip",
+		"technology": ["HTML", "CSS", "JavaScript"]
 	}
 ]
