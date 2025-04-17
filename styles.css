@@ -224,6 +224,7 @@ nav {
 	background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, rgba(26, 26, 26, 0.8) 100%), var(--secondary-bg);
 	background-color: var(--primary-bg);
 	min-height: 70vh;
+	height: 70vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -238,20 +239,12 @@ nav {
 	overflow: hidden;
 }
 
-.hero-section,
 .content-grid {
-	transition: transform 0.5s ease, opacity 0.5s ease;
-	will-change: transform, opacity;
-}
-
-.hero-hidden {
-	transform: translateY(-100%);
-	opacity: 0;
-	pointer-events: none;
+	transition: transform 0.5s ease;
 }
 
 .content-slide-up {
-	transform: translateY(-100%); 
+	transform: translateY(-60vh);
 }
 
 .hero-section::before {
